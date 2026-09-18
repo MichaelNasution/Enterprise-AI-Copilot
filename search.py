@@ -137,3 +137,101 @@ def heuristic(graph: TobaGraph, node: Node, remaining_targets: FrozenSet[Node]) 
     if not remaining_targets:
         return 0.0
     return min(graph.haversine_km(node, t) for t in remaining_targets)
+
+def a_star_search(
+    graph: TobaGraph,
+    start: Node,
+    targets: List[Node],
+    budget: float,
+) -> Optional[SearchNode]:
+    """A*: f(n) = g(n) + h(n); h(n) admissible -> solusi tetap optimal."""
+    target_set: FrozenSet[Node] = frozenset(targets)
+    start_state: State = (start, frozenset(), budget)
+
+    frontier: List[SearchNode] = []
+    h0 = heuristic(graph, start, target_set - frozenset())
+    heapq.heappush(frontier, SearchNode(priority=h0, g_cost=0.0, state=start_state, path=(start,)))
+
+    best_cost: Dict[State, float] = {start_state: 0.0}
+    expanded = 0
+
+    while frontier:
+        current = heapq.heappop(frontier)
+        expanded += 1
+        node, visited, remaining_budget = current.state
+
+        if visited == target_set:
+            current.path = current.path + (f"[expanded={expanded}]",)  # type: ignore
+            return current
+
+        if current.g_cost > best_cost.get(current.state, math.inf):
+            continue
+
+        remaining_targets = target_set - visited
+        for neighbor, cost in graph.neighbors(node):
+            if cost > remaining_budget:
+                continue
+
+            new_g = current.g_cost + cost
+            new_visited = visited | ({neighbor} & target_set)
+            new_state: State = (neighbor, new_visited, remaining_budget - cost)
+
+            if new_g < best_cost.get(new_state, math.inf):
+                best_cost[new_state] = new_g
+                h = heuristic(graph, neighbor, target_set - new_visited)
+                heapq.heappush(
+                    frontier,
+                    SearchNode(priority=new_g + h, g_cost=new_g, state=new_state, path=current.path + (neighbor,)),
+                )
+
+    return None
+
+
+# ---------------------------------------------------------------------------
+# 5. Contoh Graf Masalah Bisnis: Kawasan Danau Toba (subset destinasi)
+# ---------------------------------------------------------------------------
+
+def build_toba_graph() -> TobaGraph:
+    g = TobaGraph()
+    # (nama, lat, lon) -- koordinat perkiraan
+    g.add_node("Balige", 2.3336, 99.0678)
+    g.add_node("Muara", 2.2167, 98.9833)
+    g.add_node("Parapat", 2.6587, 98.9350)
+    g.add_node("Tomok", 2.6167, 98.8500)
+    g.add_node("Bukit_Pahoda", 2.6700, 98.8800)
+    g.add_node("Desa_Ulos_Meat", 2.3500, 99.0500)
+    g.add_node("Ambarita", 2.6667, 98.8333)
+
+    g.add_edge("Balige", "Muara", 12.0)
+    g.add_edge("Balige", "Desa_Ulos_Meat", 4.5)
+    g.add_edge("Muara", "Parapat", 38.0)
+    g.add_edge("Desa_Ulos_Meat", "Parapat", 41.0)
+    g.add_edge("Parapat", "Tomok", 15.0)   # penyeberangan danau
+    g.add_edge("Tomok", "Ambarita", 6.0)
+    g.add_edge("Tomok", "Bukit_Pahoda", 9.5)
+    g.add_edge("Ambarita", "Bukit_Pahoda", 5.0)
+    return g
+
+
+if __name__ == "__main__":
+    graph = build_toba_graph()
+
+    start_node = "Balige"
+    itinerary_targets = ["Desa_Ulos_Meat", "Bukit_Pahoda", "Tomok"]
+    wisatawan_budget = 100.0  # satuan: km biaya tempuh maksimum (proxy anggaran)
+
+    print("=== Uniform Cost Search (UCS) ===")
+    result_ucs = uniform_cost_search(graph, start_node, itinerary_targets, wisatawan_budget)
+    if result_ucs:
+        print(f"Rute optimal : {reconstruct_path_str(result_ucs.path)}")
+        print(f"Total biaya  : {result_ucs.g_cost:.2f} km")
+    else:
+        print("Tidak ditemukan rute dalam batas anggaran.")
+
+    print("\n=== A* Search ===")
+    result_astar = a_star_search(graph, start_node, itinerary_targets, wisatawan_budget)
+    if result_astar:
+        print(f"Rute optimal : {reconstruct_path_str(result_astar.path)}")
+        print(f"Total biaya  : {result_astar.g_cost:.2f} km")
+    else:
+        print("Tidak ditemukan rute dalam batas anggaran.")
