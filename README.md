@@ -21,8 +21,10 @@ Dinas Kebudayaan dan Pariwisata Kabupaten Toba menghadapi fragmentasi informasi 
 ```
 toba-copilot/
 ├── search.py           # Modul baseline search (UCS & A*) — Milestone 1
+├── solver.py           # Modul CSP Constraint Solver — Milestone 2
 ├── tests/
-│   └── test_search.py  # Unit test pytest
+│   ├── test_search.py  # Unit test pytest
+│   └── test_solver.py  # Unit test CSP Solver
 ├── pyproject.toml       # Konfigurasi dependensi (Astral uv)
 ├── .gitignore
 └── README.md
@@ -36,12 +38,19 @@ Diselesaikan dengan dua algoritma:
 - **Uniform Cost Search (UCS)** — optimal, mengekspansi berdasarkan `g(n)` murni.
 - **A\*** — optimal & lebih efisien, `f(n) = g(n) + h(n)` dengan heuristik jarak Haversine (admissible).
 
+## Formulasi CSP (Milestone 2)
+
+Pemilihan kombinasi paket wisata (homestay, kuliner, destinasi utama, dan destinasi UMKM) diformulasikan sebagai *Constraint Optimization Problem* (COP) untuk meminimalkan total biaya dengan mempertimbangkan batasan anggaran (budget) wisatawan serta kewajiban melibatkan minimal satu UMKM lokal.
+- **Generalized Arc Consistency (GAC)**: Digunakan untuk memangkas (pruning) kandidat yang secara absolut melanggar batasan global (budget & UMKM) sebelum fase pencarian dimulai.
+- **Backtracking dengan Heuristik MRV**: Memprioritaskan variabel dengan kandidat paling sedikit (*Minimum Remaining Values*), dipadukan dengan *Branch-and-Bound* untuk menjamin penemuan paket wisata termurah secara mangkus.
+
 ## Instalasi & Menjalankan (Astral uv)
 
 ```bash
 # instal uv jika belum ada: https://docs.astral.sh/uv/
 uv sync                 # instal seluruh dependensi dari pyproject.toml
 uv run python search.py # jalankan contoh pencarian rute
+uv run python solver.py # jalankan contoh penyelesaian paket wisata (CSP)
 uv run pytest -v        # jalankan seluruh unit test
 ```
 
@@ -49,8 +58,8 @@ uv run pytest -v        # jalankan seluruh unit test
 
 | Milestone | Fokus |
 |---|---|
-| M1 (W02) | Problem Framing, PEAS, Baseline Search — **(saat ini)** |
-| M2 (W04) | Business Constraint Solver (CSP/GA) |
+| M1 (W02) | Problem Framing, PEAS, Baseline Search |
+| M2 (W04) | Business Constraint Solver (CSP/GA) — **(saat ini)** |
 | M3 (W07) | Knowledge Base & Vector Search (ChromaDB) |
 | M4 (W11) | Agent Pipeline (LLM + RAG + MCP) |
 | M5 (W13) | Dashboard Web Interaktif (Gradio) |
