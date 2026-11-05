@@ -8,3 +8,21 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Testing & tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets (API keys untuk LLM di Milestone 4) — JANGAN di-commit
+.env
+.env.*
+!.env.example
+
+# Basis data vektor ChromaDB (dibangun ulang dari korpus lewat pipeline ingestion)
+chroma_db/
+
+# Log & OS
+*.log
+.DS_Store
+Thumbs.db
