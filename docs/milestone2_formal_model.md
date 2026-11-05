@@ -69,3 +69,23 @@ Untuk menangani elemen optimasi (Fungsi Objektif), *Backtracking* yang digunakan
 - Pada setiap simpul di pohon pencarian, fungsi menghitung batas bawah (*lower bound*) penyelesaian rute:
   $$\text{lower\_bound} = \text{current\_cost} + \text{minimum\_completion\_cost}$$
 - Jika `lower_bound >= self._best_cost`, maka cabang rekursif tersebut dihentikan (dipangkas/prune) karena tidak mungkin menghasilkan paket wisata yang lebih murah daripada solusi terbaik yang sudah ditemukan.
+
+## 6. Keterbatasan Model (Hasil Analisis Sensitivitas)
+
+Kedua batasan pada model ini, C1 (anggaran) dan C2 (minimal satu UMKM), bersifat global dan
+tidak mengikat pasangan variabel tertentu. Akibatnya, optimum dapat dihitung langsung dalam
+O(n): ambil item termurah per kategori; jika belum ada UMKM, tukar satu kategori ke item UMKM
+termurahnya dengan selisih terkecil. Nilai ini identik dengan `_minimum_completion_cost()`
+pada domain penuh.
+
+`analysis/sensitivity_analysis.py` mendokumentasikan hal ini lewat kolom `closed_form_matches`
+(selalu `True`) dan `closed_form_ms`. Dengan demikian, GAC + branch-and-bound terbukti benar
+dan optimal, tetapi model saat ini belum memerlukan pencarian kombinatorial.
+
+Pengembangan lanjutan yang membuat masalah ini menjadi CSP sejati adalah menambah batasan yang
+mengikat antar-variabel, misalnya:
+
+- **Kompatibilitas lokasi**: jarak homestay ke destinasi (dari graf M1) tidak melebihi batas tertentu.
+- **Jam/hari operasional**: destinasi dan kuliner harus buka pada hari kunjungan.
+- **Kapasitas**: kapasitas homestay ≥ jumlah anggota rombongan.
+- **Penyeberangan danau**: kombinasi lokasi di Samosir dan daratan hanya valid jika sesuai jadwal kapal.
