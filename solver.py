@@ -69,6 +69,8 @@ class TobaCSPSolver:
         self.require_umkm = require_umkm
         self._best_solution: dict[str, ItemWisata] | None = None
         self._best_cost = inf
+        # jumlah simpul pohon pencarian yang dikunjungi pada pemanggilan solve() terakhir
+        self.nodes_expanded = 0
 
     def _minimum_completion_cost(
         self,
@@ -179,6 +181,7 @@ class TobaCSPSolver:
         """Return the least expensive feasible package, or ``None`` if infeasible."""
         self._best_solution = None
         self._best_cost = inf
+        self.nodes_expanded = 0
         if not self.apply_ac3_node_and_arc_consistency():
             return None
         self._backtrack({})
@@ -188,6 +191,7 @@ class TobaCSPSolver:
         self, assignment: dict[str, ItemWisata]
     ) -> dict[str, ItemWisata] | None:
         """Explore candidates with MRV, GAC propagation, and an optimality bound."""
+        self.nodes_expanded += 1
         current_cost = sum(item.harga for item in assignment.values())
         if len(assignment) == len(self.variables):
             if current_cost < self._best_cost:

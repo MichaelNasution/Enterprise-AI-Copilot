@@ -115,3 +115,13 @@ def test_solver_rejects_negative_budget():
 
     with pytest.raises(ValueError, match="Budget"):
         TobaCSPSolver(get_sample_toba_domain(), budget=-1.0)
+
+
+def test_nodes_expanded_is_counted_and_reset():
+    """Counter simpul terisi setelah solve() dan di-reset pada pemanggilan berikutnya."""
+    solver = TobaCSPSolver(get_sample_toba_domain(), budget=300000.0)
+    solver.solve()
+    first = solver.nodes_expanded
+    assert first > 0
+    solver.solve()
+    assert solver.nodes_expanded == first
