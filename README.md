@@ -2,7 +2,13 @@
 
 **Enterprise AI Assistant/Copilot** untuk rekomendasi itinerary wisata personalisasi di Kawasan Danau Toba — dikembangkan untuk mata kuliah 10S3001 Kecerdasan Buatan, Institut Teknologi Del.
 
-> **Status:** Milestone 1 (Baseline Search UCS/A\*) dan Milestone 2 (CSP Constraint Solver) selesai — Milestone 3 (Knowledge Base & Vector Search) sedang berjalan.
+> ### 📊 Status & Linimasa Pengerjaan Proyek
+>
+> 🟢 **Milestone 1 (W02)** &nbsp;`[SELESAI]`&nbsp; : Problem Framing, PEAS, & Baseline Route Search (UCS & A*)  
+> 🟢 **Milestone 2 (W04)** &nbsp;`[SELESAI]`&nbsp; : Business Constraint Optimization Problem (CSP / GAC + MRV)  
+> 🟢 **Milestone 3 (W07)** &nbsp;`[SELESAI]`&nbsp; : Knowledge Base Korpus & ChromaDB Persistent Vector Search (36 Tests Passed)  
+> 🟡 **Milestone 4 (W11)** &nbsp;`[NEXT]`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Agentic RAG Pipeline (LLM + Dynamic Retrieval + MCP Tools)  
+> ⚪ **Milestone 5 (W13)** &nbsp;`[PLANNED]`&nbsp; : Interactive Web Application & Analytics Dashboard (Gradio)
 
 ## Tim — Kelompok 7
 
@@ -32,24 +38,82 @@ flowchart TD
 
 ## Struktur Repositori
 
+Repositori ini disusun secara modular dan terfragmentasi berdasarkan progres setiap milestone pengembangan:
+
+### **Milestone 1 — Baseline Route Search (UCS & A\*)**
+
 ```
 Enterprise-AI-Copilot/
-├── search.py                      # Baseline search UCS & A* — Milestone 1
-├── solver.py                      # CSP / COP constraint solver — Milestone 2
-├── test_search.py                 # Unit test search (admissibility & optimalitas A*)
-├── test_solver.py                 # Unit test solver (edge cases)
+├── search.py                      # Baseline search Uniform Cost Search (UCS) & A*
+└── test_search.py                 # Unit test search (admissibility & optimalitas A*)
+```
+
+### **Milestone 2 — Business Constraint Solver (CSP / COP)**
+
+```
+Enterprise-AI-Copilot/
+├── solver.py                      # CSP / COP constraint solver (GAC + Backtracking MRV)
+├── test_solver.py                 # Unit test solver (edge cases & budget limit)
 ├── analysis/
-│   ├── sensitivity_analysis.py    # Analisis sensitivitas solver (reproducible, seed 42)
-│   ├── sensitivity_scale.csv      # Hasil eksperimen skala domain
-│   ├── sensitivity_budget.csv     # Hasil eksperimen ketatnya anggaran
+│   ├── sensitivity_analysis.py    # Analisis sensitivitas solver CSP (reproducible, seed 42)
+│   ├── sensitivity_scale.csv      # Hasil eksperimen skala domain CSP
+│   ├── sensitivity_budget.csv     # Hasil eksperimen ketatnya anggaran CSP
 │   ├── scale_space_vs_nodes.png   # Grafik ruang pencarian vs node
 │   └── scale_time.png             # Grafik waktu eksekusi
-├── docs/
-│   └── milestone2_formal_model.md # Formalisasi matematis CSP
+└── docs/
+    └── milestone2_formal_model.md # Formalisasi matematis COP (X, D, C)
+```
+
+### **Milestone 3 — Enterprise Knowledge Base & Vector Semantic Search**
+
+```
+Enterprise-AI-Copilot/
+├── corpus/
+│   ├── manifest.csv               # Katalog metadata 12 dokumen regulasi resmi
+│   ├── check_pdf.py               # Utilitas validasi kualitas PDF
+│   ├── extract_pages.py           # Ekstraksi rentang halaman relevan
+│   └── raw/                       # Berkas PDF sumber asli
+├── data/
+│   ├── corpus/                    # Korpus teks bersih 12 dokumen + dataset pariwisata
+│   │   ├── D01_perda_tobasa_12_2012_retribusi_rekreasi.txt
+│   │   ├── ... (12 berkas teks regulasi/SOP resmi)
+│   │   ├── cleaning_report.csv    # Laporan audit pembersihan teks regulasi
+│   │   ├── hackathon_tourism_clean.jsonl         # 404 record fakta destinasi
+│   │   └── hackathon_tourism_cleaning_report.csv # Laporan pembersihan dataset
+│   ├── chunks/                    # Potongan teks hasil word-aware chunking
+│   │   ├── chunks.jsonl           # 3.308 chunk terstruktur siap indeks
+│   │   ├── chunking_experiment.csv# Eksperimen grid parameter chunking
+│   │   ├── chunk_stats.csv        # Statistik panjang token per sumber
+│   │   └── token_distribution.png # Visualisasi kurva distribusi token
+│   └── chroma_db/                 # Basis data vektor persisten ChromaDB (HNSW Cosine)
+├── src/
+│   ├── preprocess.py              # Rule-based text cleaner dokumen PDF
+│   ├── preprocess_tourism_dataset.py # Pembersih dataset fakta pariwisata
+│   ├── chunking.py                # Word-aware recursive chunker & tokenizer
+│   ├── ingest.py                  # Pipeline batch embedding & indexing ChromaDB
+│   ├── retriever.py               # Semantic search engine, metadata filter & guardrail
+│   └── check_db.py                # Skrip inspeksi & verifikasi isi database vektor
+├── tests/
+│   ├── test_chunking.py           # Unit test chunking & preservasi makna
+│   ├── test_preprocess.py         # Unit test pembersihan teks regulasi
+│   ├── test_preprocess_tourism_dataset.py # Unit test sanitasi dataset pariwisata
+│   ├── test_ingest.py             # Unit test persistensi basis data vektor & HNSW
+│   └── test_retrieval.py          # Unit test temu balik semantik & guardrail
+├── analysis/
+│   ├── benchmark.py               # Benchmark temu balik semantik 5 kueri bisnis
+│   └── retrieval_benchmark.csv    # Rekapitulasi hasil evaluasi temu balik semantik
+└── docs/
+    └── milestone3_plan.md         # Panduan, pembagian peran & roadmap eksekusi M3
+```
+
+### **Fondasi Proyek & Konfigurasi**
+
+```
+Enterprise-AI-Copilot/
 ├── src/certan_ai/                 # Package proyek (entry point)
-├── pyproject.toml / uv.lock       # Dependensi (Astral uv)
-├── LICENSE
-└── README.md
+├── pyproject.toml / uv.lock       # Konfigurasi dependensi (Astral uv)
+├── LICENSE                        # Lisensi proyek (MIT)
+└── README.md                      # Dokumentasi komprehensif sistem
 ```
 
 ## Formulasi Ruang Keadaan (Milestone 1)
