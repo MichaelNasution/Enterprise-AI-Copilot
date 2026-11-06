@@ -68,14 +68,26 @@ Pemilihan kombinasi paket wisata (homestay, kuliner, destinasi utama, dan destin
 - **Generalized Arc Consistency (GAC)**: Digunakan untuk memangkas (pruning) kandidat yang secara absolut melanggar batasan global (budget & UMKM) sebelum fase pencarian dimulai.
 - **Backtracking dengan Heuristik MRV**: Memprioritaskan variabel dengan kandidat paling sedikit (*Minimum Remaining Values*), dipadukan dengan *Branch-and-Bound* untuk menjamin penemuan paket wisata termurah secara mangkus.
 
+## Milestone 3: Basis Pengetahuan Korpus & Vector Semantic Search
+
+Pada Milestone 3 ini dibangun memori semantik perusahaan (*Enterprise Knowledge Base*) menggunakan **ChromaDB persisten** dengan ruang metrik **Cosine Similarity** dan model embedding multibahasa **`paraphrase-multilingual-MiniLM-L12-v2`** (384 dimensi), mencakup:
+- **Korpus Regulasi & SOP**: 12 dokumen regulasi resmi Danau Toba + 404 record dataset fakta destinasi dan operasional (3.308 chunk terstruktur).
+- **Chunking Engine**: *Word-aware recursive chunking* dengan *sliding window overlap* teruji ilmiah.
+- **Pipeline Ingestion**: Skrip batch embedding dan persistent indexing ke ChromaDB disk (`src/ingest.py`).
+- **Semantic Retriever & Guardrail**: Mesin pencari semantik (`src/retriever.py`) dengan dukungan *metadata filtering* dan *guardrail threshold* penolakan kueri di luar cakupan dokumen (*out-of-domain*).
+- **Benchmarking Suite**: Evaluasi 5 kueri bisnis (`analysis/benchmark.py`) dengan penghitungan skor Cosine Similarity serta metrik $P@k$ dan $R@k$.
+
 ## Instalasi & Menjalankan (Astral uv)
 
 ```bash
 # instal uv jika belum ada: https://docs.astral.sh/uv/
-uv sync                 # instal seluruh dependensi dari pyproject.toml
-uv run python search.py # jalankan contoh pencarian rute
-uv run python solver.py # jalankan contoh penyelesaian paket wisata (CSP)
-uv run pytest -v        # jalankan seluruh unit test
+uv sync                                    # instal seluruh dependensi dari pyproject.toml
+uv run python search.py                    # jalankan contoh pencarian rute (M1)
+uv run python solver.py                    # jalankan contoh penyelesaian paket wisata CSP (M2)
+uv run python src/ingest.py                # jalankan pipeline ingestion ChromaDB (M3)
+uv run python src/retriever.py             # jalankan pengujian pencarian semantik & guardrail (M3)
+uv run python analysis/benchmark.py        # jalankan evaluasi benchmark 5 kueri bisnis (M3)
+uv run pytest -v                           # jalankan seluruh unit test (36 tests passed)
 uv run python analysis/sensitivity_analysis.py  # reproduksi analisis sensitivitas M2
 ```
 
@@ -89,9 +101,6 @@ uv run python analysis/sensitivity_analysis.py  # reproduksi analisis sensitivit
 | M4 (W11) | Agent Pipeline (LLM + RAG + MCP) |
 | M5 (W13) | Dashboard Web Interaktif (Gradio) |
 
-
-## Dependecy
-| pip install chromadb sentence-transformers tqdm
 
 ## Lisensi
 

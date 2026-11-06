@@ -30,10 +30,16 @@ def test_collection_hnsw_metric_is_cosine(persistent_collection):
     KUNCI PENILAIAN RUBRIK:
     Memastikan konfigurasi ruang metrik HNSW ChromaDB dikunci ke 'cosine'.
     """
-    metadata = persistent_collection.metadata
-    assert metadata is not None, "Metadata koleksi tidak boleh kosong!"
-    assert metadata.get("hnsw:space") == "cosine", (
-        f"Ruang jarak koleksi harus 'cosine', namun ditemukan '{metadata.get('hnsw:space')}'"
+    space = None
+    if hasattr(persistent_collection, "configuration") and persistent_collection.configuration:
+        hnsw_cfg = persistent_collection.configuration.get("hnsw")
+        if isinstance(hnsw_cfg, dict):
+            space = hnsw_cfg.get("space")
+    if not space and persistent_collection.metadata:
+        space = persistent_collection.metadata.get("hnsw:space")
+
+    assert space == "cosine", (
+        f"Ruang jarak koleksi harus 'cosine', namun ditemukan '{space}'"
     )
 
 
@@ -125,5 +131,10 @@ def test_modular_run_ingestion_with_temp_data(tmp_path):
     client = chromadb.PersistentClient(path=temp_db)
     col = client.get_collection("test_collection")
     assert col.count() == 2
-    assert col.metadata.get("hnsw:space") == "cosine"
+    col_space = None
+    if hasattr(col, "configuration") and col.configuration:
+        col_space = col.configuration.get("hnsw", {}).get("space")
+    if not col_space and col.metadata:
+        col_space = col.metadata.get("hnsw:space")
+    assert col_space == "cosine"
 

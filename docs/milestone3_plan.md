@@ -93,12 +93,15 @@ Milestone 3 berfokus pada pembangunan memori semantik perusahaan (*Enterprise Kn
 
 * [x] **Analisis & Seleksi Model Embedding:**
   * Pemilihan model `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (384 dimensi, mendukung multibahasa/Bahasa Indonesia dengan pemisahan semantik optimal).
-* [ ] **Arsitektur ChromaDB & Ruang Metrik:**
-  * Memastikan konfigurasi ruang jarak HNSW eksplisit menggunakan `cosine` pada koleksi persisten.
-* [ ] **Perancangan Ambang Batas (*Guardrail Threshold*):**
-  * Merancang formulasi batas toleransi skor similarity empiris (misal $\ge 0.20$ diterima, $< 0.20$ ditolak) untuk mendeteksi kueri luar cakupan korpus (*out-of-domain*).
-* [ ] **Evaluasi Matematis & Tolok Ukur Temu Balik:**
+* [x] **Arsitektur ChromaDB & Ruang Metrik:**
+  * Mengonfigurasi penyimpanan berbasis disk persisten (`PersistentClient`).
+  * Mengunci konfigurasi metrik jarak pada HNSW ke ruang `cosine` (`{"hnsw": {"space": "cosine"}}` dan `metadata={"hnsw:space": "cosine"}`).
+* [x] **Perancangan Ambang Batas (*Guardrail Threshold*):**
+  * Menguji distribusi skor kesamaan semantik secara empiris (domain Toba: 0.63–0.81, luar domain: 0.33–0.52).
+  * Menetapkan nilai ambang batas empiris terkalibrasi $\text{threshold} = 0.58$ untuk menolak kueri luar domain (*out-of-domain*) dengan presisi 100%.
+* [x] **Evaluasi Matematis & Tolok Ukur Temu Balik:**
   * Menghitung nilai metrik evaluasi temu balik $P@k$ (*Precision@k*) dan $R@k$ (*Recall@k*) untuk 5 kueri uji bisnis.
+  * Hasil terekam secara otomatis di `analysis/retrieval_benchmark.csv`.
 * [ ] **Penyusunan Laporan Teknis PDF (`Grup07-Tugas03.pdf`):**
   * Memimpin penulisan dokumen laporan teknis (Bab Teori NLP, Arsitektur Vektor, Analisis Metrik Cosine vs $L_2$, HNSW ANN, dan Pembahasan Hasil Evaluasi).
 
@@ -107,25 +110,29 @@ Milestone 3 berfokus pada pembangunan memori semantik perusahaan (*Enterprise Kn
 ### C. Grasia Simanullang — *Integration & Interface Engineer*
 **Fokus Area:** Rekayasa Pipeline Ingestion, Modul Retriever, Pengujian Otomatis, dan Repositori (Kontribusi Rubrik 45% & 30%)
 
-* [x] **Sinkronisasi Repositori & Dependensi Proyek (Inisial):**
+* [x] **Sinkronisasi Repositori & Dependensi Proyek:**
   * Dependensi `chromadb`, `sentence-transformers`, `pypdf` terpasang di `pyproject.toml` via Astral `uv`.
-* [ ] **Pembangunan Pipeline Ingestion End-to-End (`src/ingest.py`):**
-  * Mengembangkan skrip ingestion yang membaca 3.308 chunk dari `data/chunks/chunks.jsonl`.
-  * Melakukan *batch embedding* menggunakan `SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")`.
-  * Mengindeks seluruh vektor beserta metadata ke dalam `chromadb.PersistentClient(path="./data/chroma_db")` dengan koleksi `toba_knowledge_base` berspasi `cosine`.
-* [ ] **Pengembangan Modul Pencarian Semantik (`src/retriever.py`):**
-  * Membangun kelas/fungsi pencarian semantik yang menerima kueri teks, menghasilkan query embedding, mengeksekusi pencarian k-NN, dan menghitung `similarity = 1 - distance`.
-  * Mendukung filter metadata (`where={"kategori": "tarif_retribusi"}` atau `where={"source_type": "dokumen"}`).
-  * Mengintegrasikan *guardrail threshold* penolakan kueri di luar cakupan dokumen.
-* [ ] **Penyusunan Pengujian Benchmark (`tests/test_retrieval.py` / `benchmark.py`):**
+  * Konfigurasi `[tool.pytest.ini_options]` disematkan untuk pengujian otomatis.
+* [x] **Pembangunan Pipeline Ingestion End-to-End (`src/ingest.py`):**
+  * Skrip ingestion modular yang membaca 3.308 chunk dari `data/chunks/chunks.jsonl`.
+  * Melakukan *batch embedding* (batch size 64) menggunakan `SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")`.
+  * Mengindeks 3.308 vektor beserta metadata ke dalam `chromadb.PersistentClient(path="./data/chroma_db")` dengan koleksi `toba_knowledge_base` berspasi `cosine`.
+  * Unit test `tests/test_ingest.py` (7 tests passed).
+* [x] **Pengembangan Modul Pencarian Semantik (`src/retriever.py`):**
+  * Membangun kelas `TobaKnowledgeRetriever` dan fungsi antarmuka `query_knowledge_base(query_text, top_k=3, where_filter=None)`.
+  * Menghitung kemiripan: $\text{Cosine Similarity} = 1 - \text{Distance}$.
+  * Mendukung filter metadata (`where={"kategori": "tarif_retribusi"}` atau `where={"source_type": "dataset"}`).
+  * Mengintegrasikan *guardrail threshold* empiris penolakan kueri di luar cakupan korpus.
+* [x] **Penyusunan Pengujian Benchmark (`tests/test_retrieval.py` & `analysis/benchmark.py`):**
   * Menguji 5 skenario kueri bisnis wajib:
-    1. Kueri Relevan Harfiah (*Exact/Keyword match*)
-    2. Kueri Relevan Parafrasa/Sinonim (*Semantic variation*)
-    3. Kueri Berbasis Spesifikasi Kategori dengan Filter Metadata
-    4. Kueri Ambigu
-    5. Kueri *Out-of-Domain* (luar cakupan dokumen)
-* [ ] **Pembaruan Dokumentasi `README.md`:**
-  * Menuliskan cara menjalankan `uv run python src/ingest.py` dan cara melakukan kueri via `retriever.py`.
+    1. Kueri Relevan Harfiah (*Exact/Keyword match* $\rightarrow$ Sim: 0.7548, P@3: 1.00)
+    2. Kueri Relevan Parafrasa/Sinonim (*Semantic variation* $\rightarrow$ Sim: 0.6756, P@3: 1.00)
+    3. Kueri Berbasis Spesifikasi Kategori dengan Filter Metadata ($\rightarrow$ Sim: 0.7454, P@3: 1.00)
+    4. Kueri Ambigu ($\rightarrow$ Sim: 0.6377, P@3: 1.00)
+    5. Kueri *Out-of-Domain* ($\rightarrow$ Sim: 0.3845 vs Threshold 0.58 $\rightarrow$ Berhasil Ditolak Guardrail)
+  * Unit test `tests/test_retrieval.py` (7 tests passed).
+* [x] **Pembaruan Dokumentasi `README.md`:**
+  * Menuliskan cara menjalankan `uv run python src/ingest.py`, pengujian benchmark `analysis/benchmark.py`, dan cara melakukan kueri via `src/retriever.py`.
 
 ---
 
@@ -141,12 +148,12 @@ gantt
     Word-aware Recursive Chunker (Ventyola)           :done, f2a, 2026-11-06, 1d
     Konfigurasi Sentence-Transformers (Michael)       :done, f2b, 2026-11-06, 1d
     section Fase 3: ChromaDB Vector Store
-    Pipeline Ingestion & Indexing Persisten (Grasia)  :active, f3, 2026-11-06, 2d
+    Pipeline Ingestion & Indexing Persisten (Grasia)  :done, f3, 2026-11-06, 1d
     section Fase 4: Retriever & Benchmark
-    Engine Retrieval & Guardrail Threshold (Grasia)   :f4a, after f3, 1d
-    Eksekusi 5 Kueri Benchmark, P@k, R@k (Michael)    :f4b, after f4a, 1d
+    Engine Retrieval & Guardrail Threshold (Grasia)   :done, f4a, 2026-11-06, 1d
+    Eksekusi 5 Kueri Benchmark, P@k, R@k (Michael)    :done, f4b, 2026-11-06, 1d
     section Fase 5: Pelaporan & Deliverables
-    Penyusunan Laporan PDF Grup07-Tugas03 (Michael)   :f5a, after f4b, 2d
+    Penyusunan Laporan PDF Grup07-Tugas03 (Michael)   :active, f5a, 2026-11-06, 2d
     Finalisasi README & Push Repo GitHub (Tim)        :f5b, after f5a, 1d
 ```
 
@@ -156,9 +163,9 @@ gantt
 |---|---|---|:---:|
 | **Fase 1: Fondasi Data & Korpus Enterprise** | • 12 dokumen regulasi + 404 record pariwisata Toba di `data/corpus/`<br>• Skema metadata lengkap tertanam di manifest & jsonl<br>• Normalisasi teks & preservasi kata negasi via `preprocess.py` | **Ventyola Rohati** | 🟢 **SELESAI (100%)** |
 | **Fase 2: Arsitektur Model & Chunking Engine** | • Pemilihan model `paraphrase-multilingual-MiniLM-L12-v2`<br>• Word-aware recursive chunker `src/chunking.py`<br>• Eksperimen parameter chunking & 3.308 chunk di `chunks.jsonl` | **Ventyola Rohati** & **Michael Pratama** | 🟢 **SELESAI (100%)** |
-| **Fase 3: Persistent Indexing & ChromaDB** | • Skrip `src/ingest.py` (baca 3.308 chunk $\rightarrow$ batch embedding $\rightarrow$ ChromaDB)<br>• Penyimpanan disk persisten `chromadb.PersistentClient`<br>• Konfigurasi eksplisit HNSW ruang `cosine` | **Grasia Simanullang** | 🟡 **PRIORITAS BERIKUTNYA (0%)** |
-| **Fase 4: Semantic Retriever & Benchmarking** | • Skrip `src/retriever.py` (cosine similarity + metadata filter)<br>• Ambang batas (*guardrail threshold*) penolakan kueri luar domain<br>• Pengujian 5 kueri bisnis & penghitungan metrik $P@k$ dan $R@k$ | **Grasia Simanullang** & **Michael Pratama** | ⚪ *Pending* (0%) |
-| **Fase 5: Laporan Teknis PDF & Finalisasi** | • Kompilasi dokumen laporan teknis `Grup07-Tugas03.pdf`<br>• Pembaruan panduan eksekusi di `README.md`<br>• Pengujian unit test via `pytest` & final push ke GitHub | **Michael Pratama** (Lead) & Seluruh Tim | ⚪ *Pending* (0%) |
+| **Fase 3: Persistent Indexing & ChromaDB** | • Skrip `src/ingest.py` (3.308 chunk $\rightarrow$ batch embedding $\rightarrow$ ChromaDB)<br>• Penyimpanan disk persisten `chromadb.PersistentClient`<br>• Konfigurasi eksplisit HNSW ruang `cosine`<br>• Tervalidasi via `tests/test_ingest.py` (7 tests passed) | **Grasia Simanullang** | 🟢 **SELESAI (100%)** |
+| **Fase 4: Semantic Retriever & Benchmarking** | • Skrip `src/retriever.py` (cosine similarity + metadata filter)<br>• Ambang batas (*guardrail threshold*) empiris 0.58 penolakan kueri luar domain<br>• Benchmark 5 kueri bisnis (`analysis/benchmark.py`) & evaluasi $P@k$ dan $R@k$<br>• Tervalidasi via `tests/test_retrieval.py` (7 tests passed) | **Grasia Simanullang** & **Michael Pratama** | 🟢 **SELESAI (100%)** |
+| **Fase 5: Laporan Teknis PDF & Finalisasi** | • Kompilasi dokumen laporan teknis `Grup07-Tugas03.pdf`<br>• Pembaruan panduan eksekusi di `README.md`<br>• Pengujian unit test via `pytest` (36 tests passed) & final push ke GitHub | **Michael Pratama** (Lead) & Seluruh Tim | 🟡 **PRIORITAS BERIKUTNYA** |
 
 ---
 
@@ -168,10 +175,10 @@ gantt
 flowchart TD
     A[Ventyola: Kurasi 12 Dokumen SOP & Metadata] -->|Selesai| B[Ventyola: Preprocessing & Word-Aware Chunking]
     B -->|Tersedia: chunks.jsonl 3.308 chunks| C[Michael: Inisialisasi Multilingual Model & Konfigurasi HNSW Cosine]
-    C -->|Langkah Saat Ini| D[Grasia: Skrip Ingestion & Persistent Indexing ChromaDB]
-    D --> E[Grasia: Implementasi Modul Retriever & Guardrail]
-    E --> F[Grasia & Michael: Eksekusi 5 Kueri Benchmark]
-    F --> G[Michael: Analisis Metrik P@k, R@k & Penulisan Laporan PDF]
+    C -->|Selesai| D[Grasia: Skrip Ingestion & Persistent Indexing ChromaDB]
+    D -->|Selesai: 3.308 Chunks Indexed| E[Grasia: Implementasi Modul Retriever & Guardrail]
+    E -->|Selesai: retriever.py & 36 Tests Passed| F[Grasia & Michael: Eksekusi 5 Kueri Benchmark]
+    F -->|Hasil di: retrieval_benchmark.csv| G[Michael: Analisis Metrik P@k, R@k & Penulisan Laporan PDF]
     G --> H[Tim: Finalisasi Repositori GitHub & Pengumpulan Dokumen]
 ```
 
