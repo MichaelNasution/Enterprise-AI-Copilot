@@ -89,6 +89,10 @@ uv run python analysis/sensitivity_analysis.py  # reproduksi analisis sensitivit
 | M4 (W11) | Agent Pipeline (LLM + RAG + MCP) |
 | M5 (W13) | Dashboard Web Interaktif (Gradio) |
 
+
+## Dependecy
+| pip install chromadb sentence-transformers tqdm
+
 ## Lisensi
 
 Dirilis di bawah [MIT License](LICENSE).
