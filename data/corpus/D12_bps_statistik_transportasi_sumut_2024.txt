@@ -1,0 +1,362 @@
+# D12 | Statistik Transportasi Provinsi Sumatera Utara 2024
+
+Statistik Transportasi Sumatera Utara 2024 i
+
+Statistik Transportasi Sumatera Utara 2024 iii
+
+STATISTIK TRANSPORTASI
+PROVINSI SUMATERA UTARA 2024
+Volume 6, 2025 Katalog : 8301007.12
+ISSN : 2828-6421
+Nomor Publikasi : 12000.25047 Ukuran Buku : 21,0 cm x 29,7 cm Jumlah Halaman : xii+65 halaman Penyusun Naskah:
+Badan Pusat Statistik Provinsi Sumatera Utara Penyunting:
+Badan Pusat Statistik Provinsi Sumatera Utara Pembuat Kover:
+Badan Pusat Statistik Provinsi Sumatera Utara Sumber Ilustrasi:
+www.canva.com Penerbit:
+©Badan Pusat Statistik Provinsi Sumatera Utara Dilarang mereproduksi dan/atau menggandakan sebagian atau seluruh isi buku ini untuk tujuan komersial tanpa izin tertulis dari Badan Pusat Statistik Provinsi-
+Sumatera Utara
+
+Statistik Transportasi Sumatera Utara 2024 iii
+TIM PENYUSUN
+STATISTIK TRANSPORTASI
+PROVINSI SUMATERA UTARA 2024
+Volume 6, 2025 Pengarah Asim Saputra SST, M.Ec.Dev.
+Penanggung Jawab Fernando Silaen, SST, M.Si.
+Penyunting Aan Budhi Willyana SST, MM.
+Pengolah Data dan Penulis Naskah Ayunning Tieas, SST, M.Sc.
+Penata Letak Adelina Octavia Sihombing, SST, M. Ikom
+ISSN 2828-6421
+
+KATA PENGANTAR
+Puji dan syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas limpahan rahmat dan karunia -Nya, sehingga publikasi “Statistik Transportasi Provinsi Sumatera Utara 2024” dapat tersusun dan terbit. Publikasi ini merupakan salah satu bentuk upaya BPS Provinsi Sumatera Utara dalam menyediakan informasi statistik untuk menggambarkan situasi dan perkembangan transportasi di wilayah ini.
+Transportasi memiliki peranan penting dalam menggerakkan roda perekonomian ser ta menunjang mobilitas masyarakat. Sebagai infrastruktur dasar, keberadaannya menjadi faktor penentu kelancaran aktivitas produksi, distribusi, dan konsumsi. Adapun penyediaan data yang akurat dan terkini menjadi kunci dalam mendukung perencanaan, pengambi lan kebijakan, maupun evaluasi program di sektor transportasi.
+Data yang disajikan dalam publikasi ini bersumber dari hasil kompilasi berbagai kegiatan statistik transportasi, mencakup moda darat, laut, dan udara.
+Penyusunan publikasi ini tidak lepas dari kerja sama dan dukungan berbagai instansi yang rutin memberikan data dan informasi. Melalui publikasi ini, diharapkan para pengguna data dapat memperoleh gambaran utuh tentang kondisi transportasi di Sumatera Utara sepanjang tahun 2024 serta memanfaatkannya untuk analisis dan kajian lebih lanjut.
+Kami menyampaikan apresiasi kepada seluruh pihak yang telah berpartisipasi dan membantu proses penerbitan publikasi ini. Kritik dan saran sangat kami nantikan demi peningkatan kualitas publikasi di masa mendatang.
+Semoga buku ini memberikan manfaat luas bagi pengambil kebijakan, akademisi, pelaku usaha, serta masyarakat umum yang memerlukan data transportasi sebagai bahan pertimbangan dalam berbagai kegiatan pembangunan.
+Medan, Oktober 2025 Kepala Badan Pusat Statistik Provinsi Sumatera Utara Asim Saputra
+
+Statistik Transportasi Provinsi Sumatera Utara 2023 | 1
+
+Pendahuluan 3
+I. PENDAHULUAN
+1.1 Latar Belakang Transportasi merupakan salah satu prasarana pendukung yang merupakan
+bagian penting dari proses pembangunan nasional. Keberadaan transportasi memperlancar proses pembangunan dan akses hasil pembangunan. Pemerintah sebagai mobilisator pembangunan mempunyai peranan penting dalam upaya meningkatkan sarana dan prasarana pembangunan khususnya di bidang transportasi.
+Sektor transportasi mempunyai peran yang strategis terhadap perekonomian lancar, kontribusinya sangat menunjang terhadap keberhasilan sektor-sektor ekonomi lain. Karena itu sudah selayaknya pembangunan sektor transportasi mendapat perhatian yang lebih terarah dari pemerintah.
+Salah satu p eranan sistem transportasi saat ini adalah untuk menghubungkan satu wilayah dengan wilayah lain. Adanya transport asi menjadikan perekonomian masyarakat semakin hidup sehingga diharapkan kesejahteraan masyarakat juga lebih meningkat , karena lebih mudah untuk mendapatkan barang atau jasa yang dibutuhkan.
+Transportasi sebagai urat nadi pembangunan sangat dibutuhkan untu k menjamin terselenggaranya mobilitas penduduk , juga untuk kemudahan dalam mendistribusikan barang dan jasa. Dengan ketersediaan sistem transportasi yang memadai diharapkan berbagai aktivitas ekonomi dapat berjalan lebih lancar pula.
+1.2 Ruang Lingkup Publikasi ini menyajikan data perkembangan sarana dan prasarana transportasi yang terdiri dari transportasi darat, transportasi laut dan transportasi udara. Data t ransportasi darat meliputi panjang jalan dan angkutan kereta api.
+Data t ransportasi laut menc akup data kunjungan kapal, bongkar muat barang , serta keberangkatan dan kedatangan penumpang baik untuk pelayaran dalam negeri maupun luar negeri. Sementara itu data transportasi udara meliputi lalu lintas pesawat, bongkar muat barang , jumlah penumpang berangkat dan datang baik dengan penerbangan domestik maupun internasional melalui Bandar Udara Internasional Kualanamu.
+
+Pendahuluan 5
+
+Konsep dan Definisi 7
+II. KONSEP DAN DEFINISI
+2.1 Transportasi Darat Jalan raya adalah prasarana transportasi darat dalam bentuk apapun yang diperuntukkan bagi lalu lintas umum (kecuali jalan kereta api/rel) yang berada diatas permukaan tanah termasuk juga jalan yang ada di bawah laut (terowongan), jalan layang dan jalan yang melintasi sungai besar/danau/laut.
+Menurut status kewenangannya, jalan raya dibedakan menjadi:
+➢ Jalan Negara atau disebut jalan nasional adalah jaringan jalan umum yang pembinaannya dilakukan oleh Kementrian Pekerjaan Umum.
+➢ Jalan Provinsi adalah jaringan jalan umum yang pembinaannya dilakukan oleh Pemerintah Provinsi.
+➢ Jalan Kabupaten adalah jaringan jalan umum yang pembinaannya dilakukan oleh Pemerintah Kabupaten.
+➢ Jalan Kota adalah jaringan jalan umum yang pembinaannya dilakukan oleh Pemerintah Daerah Kota.
+Menurut jenis permukaannya, jalan raya dibedakan menjadi:
+➢ Jalan Aspal adalah jalan yang permukaannya terbuat dari aspal (semua lapisan aspal).
+➢ Jalan Kerikil adalah jalan yang permukaannya terbuat dari lapisan kerikil yang diperkeras.
+➢ Jalan Tanah adalah jalan yang belum diperkeras dan masih terdiri atas tanah biasa.
+Menurut kondisinya, jalan raya dibedakan menjadi:
+➢ Jalan baik adalah jalan yang dapat dilalui oleh kendaraan dengan kecepatan 60 km per jam dan selama dua tahun mendatang tanpa pemeliharaan/ rehabilitasi pada pengerasan jalan.
+➢ Jalan sedang adalah jalan yang dapat dilalui kendaraan dengan kecepatan 40–60 km per jam dan selama satu tahun mendatang tanpa pemeliharaan/ rehabilitasi pada pengerasan jalan.
+➢ Jalan dalam kondisi pelayanan mantap adalah ruas -ruas jalan dengan kondisi baik atau sesuai dengan umur rencana yang diperhitungkan serta mengikuti suatu standar tertentu.
+➢ Jalan rusak adalah jalan yang dapat dilalui oleh kendaraan dengan kecepatan 0–40 km per jam dan perlu ditambah/perbaikan pondasi jalan.
+
+8 Statistik Transportasi Sumatera Utara 2024 Penumpang adalah seseorang yang hanya menumpang, baik itu pesawat, kereta api, bus maupun transportasi lainnya, tetapi tidak termasuk awak yang mengoperasikan dan melayani wahana tersebut.
+Terminal adalah prasarana transportasi jalan untuk keperluan menaikkan dan menurunkan penumpang, perpindahan intra dan antar moda transportasi serta mengatur kedatangan dan pemberangkatan umum.
+Kereta Api adalah kendaraan dengan tenaga gerak (listrik, diesel, tenaga uap) yang berjalan sendiri maupun yang dirangkaikan dengan kendaraan lain, yang akan atau sedang bergerak diatas rel, yang terdiri dari kereta penumpang dan kereta barang.
+Kilometer Penumpang adalah jumlah kilometer dari semua penumpang yang berangkat. Besaran ini merupak an penjumlahan jarak asal tujuan masing masing penumpang.
+Rata-rata Jarak Perjalanan per Penumpang adalah rata -rata jarak yang ditempuh oleh semua penumpang dibagi dengan jumlah penumpang yang berangkat.
+Kilometer Ton adalah jumlah kilometer semua ton ba rang yang diangkut.
+Besaran ini merupakan hasil penjumlahan jarak asal tujuan masing -masing dalam ton.
+Rata-rata Jarak Angkut Barang adalah rata-rata jarak yang ditempuh oleh setiap ton barang atau jumlah kilometer ton dibagi dengan ton dimuat.
+2.2 Transportasi Laut Pelabuhan adalah kawasan yang terdiri dari daratan dan perairan di sekitarnya dengan batas -batas tertentu sebagai tempat kegiatan pemerintahan dan kegiatan ekonomi yang dilengkapi dengan fasilitas kapal bersandar, berlabuh, naik turun pe numpang, dan atau bongkar muat barang yang dilengkapi dengan fasilitas keselamatan, keamanan pelayaran dan kegiatan penunjang pelabuhan serta sebagai tempat perpindahan intra dan antar moda transportasi.
+Pelabuhan Indonesia adalah pelabuhan yang berada di wilayah negara Indonesia, sedangkan kata pelabuhan bisa diartikan sebuah fasilitas di ujung samudera, sungai, danau atau udara untuk menerima kapal dan memindahkan barang kargo maupun penumpang ke dalamnya. Pelabuhan biasanya memiliki alat-alat yang diranc ang khusus untuk memuat dan membongkar muatan kapal kapal yang berlabuh.
+
+Konsep dan Definisi 9 Pelabuhan yang Diusahakan adalah pelabuhan laut yang diselenggarakan oleh PT. (Persero) Pelabuhan Indonesia III untuk memberikan fasilitas -fasilitas yang diperlukan bagi kapal memasu ki pelabuhan untuk melakukan kegiatan bongkar muat.
+Pelabuhan yang Tidak Diusahakan adalah pelabuhan laut yang dikelola oleh Unit Pelaksana Teknis Kepelabuhan Kanwil Kementrian Perhubungan yang pembinaannya dilaksanakan oleh Direktorat Jenderal Perhubungan Laut.
+Sedangkan tugas dan fungsinya sama dengan pelabuhan yang diusahakan, tetapi fasilitas yang dimiliki belum selengkap yang diusahakan.
+Unit Penyelenggara Pelabuhan adalah lembaga pemerintah di pelabuhan sebagai otoritas yang melaksanakan fungsi penga turan, pengendalian, pengawasan kegiatan kepelabuhan dan pemberian pelayanan jasa kepelabuhan untuk pelabuhan yang belum diusahakan komersial.
+Syahbandar adalah pejabat pemerintah di pelabuhan yang diangkat oleh menteri dan memiliki kewenangan tertinggi u ntuk menjalankan dan melakukan pengawasan terhadap dipenuhinya ketentuan peraturan perundang -undangan untuk menjamin keselamatan dan keamanan pelayaran.
+Badan Usaha Pelabuhan adalah badan usaha yang kegiatan usahanya khusus di bidang pengusahaan terminal dan fasilitas pelabuhan lainnya.
+Pelayaran Dalam Negeri adalah kegiatan angkutan laut antar pelabuhan di wilayah Indonesia yang dilakukan secara tetap dan teratur dan atau dengan pelayaran tidak tetap dan tidak teratur dan atau dengan pelayaran tidak tetap dan tidak teratur dengan menggunakan semua jenis kapal, termasuk kapal asing yang dioperasikan secara carter oleh perusahaan pelayaran nasional bukti carter dan surat muatan.
+Pelayaran Luar Negeri adalah kegiatan angkutan laut ke atau dari luar negeri yang dilakukan secara tetap dan teratur dan atau dengan pelayaran tidak tetap dan tidak teratur dengan menggunakan semua jenis kapal.
+Pelayaran Nasional adalah kegiatan pelayaran yang diusahakan oleh WNI dan menggunakan bendera Indonesia.
+Pelayaran Asing adalah kegiatan pelayaran yang diusahakan oleh WNA dan menggunakan bendera asing.
+Pelabuhan Strategis adalah pelabuhan yang dianggap telah dilengkapi dengan berbagai fasilitas modern, diantaranya fasilitas untuk pelayaran angkutan
+
+10 Statistik Transportasi Sumatera Utara 2024 peti kemas, barang curah, b arang umum dan penumpang serta mempunyai kepadatan pergerakan kapal.
+Kunjungan Kapal adalah kapal yang datang di pelabuhan baik untuk berlabuh di perairan maupun bersandar di dermaga.
+Gross Register Ton (GRT) adalah satuan untuk menghitung volume ruangan di bawah geladak utama, dan pada bangunan atas (1GRT = 2,8 M3).
+Bongkar Muat di Pelabuhan adalah kegiatan yang dilakukan oleh pelabuhan yang bersangkutan mengenai bongkar muat barang yang berasal dari pelayanan dalam negeri.
+Impor adalah kegiatan yang dilakukan oleh pelabuhan yang bersangkutan mengenai bongkar muat khususnya barang yang diangkut dari pelabuhan luar.
+Ekspor adalah pemuatan barang ke kapal untuk diangkut ke pelabuhan tujuan di luar negeri.
+Debarkasi adalah tempat pem bongkaran/penurunan barang -barang, kendaraan dan penumpang.
+Embarkasi adalah tempat pemuatan/penaikan barang-barang, kendaraan dan penumpang ke dalam kapal.
+Penumpang adalah orang yang berada di atas kapal kecuali nahkoda dan awak kapal atau orang lain ya ng dalam kedudukan apapun juga bekerja atau dipekerjakan di kapal.
+Penumpang Naik adalah penumpang yang naik ke kapal untuk berangkat ke pelabuhan tujuan.
+Penumpang Turun adalah penumpang yang turun dari kapal yang diangkut dari kapal asal.
+Bongkar/Impor Barang adalah pembongkaran barang (peti kemas dan non peti kemas) dari kapal, baik barang yang diangkut dari pelabuhan asal Indonesia (bongkar) atau dari luar negeri (impor).
+Muat/Ekspor Barang adalah pemuatan barang (peti kemas dan non peti kemas) ke kapal untuk diangkut ke pelabuhan tujuan di Indonesia (muat) atau ke luar negeri (ekspor).
+2.3 Transportasi Udara Keberangkatan Pesawat adalah jumlah keberangkatan pesawat terbang.
+
+Konsep dan Definisi 11 Kedatangan Pesawat adalah jumlah kedatangan pesawat terbang.
+Transit Pesawat adalah jumlah pesawat yang singgah di pelabuhan pencatatan untuk kemudian melanjutkan penerbangan ke tempat tujuan.
+Jumlah Penumpang adalah jumlah atau banyaknya penumpang yang diangkut dengan pesawat terbang.
+Banyaknya Barang yang Diangkut adalah jumlah atau banyaknya barang-barang yang diangkut dengan pesawat terbang.
+2.4 Metode pengumpulan Data Data yang dikumpulkan merupakan kompilasi data administrasi pemerintah yang dilakukan secara teratur secara bulanan dan tahunan oleh BPS Provinsi Sumatera Utara d an BPS Kabupaten/Kota. Pengumpulan data bongkar muat barang, kunjungan kapal dan keberangkatan/kedatangan penumpang diperoleh dari data Sistem Informasi Manajemen Operasional Pelabuhan (Simoppel) Pelabuhan Indonesia (Pelindo) baik pelabuhan yang diusahakan maupun tidak di wilayah Provinsi Sumatera Utara yang dikumpulkan setiap bulan oleh BPS. Data lalu lintas Bandara Kualanamu diperoleh dari PT. Angkasa Pura II.
+Data penumpang kereta api diperoleh dari kompilasi yang dilakukan BPS di PT KAI.
+Sedangkan beberapa data lainnya diperoleh dari Dinas/Instansi terkait.
+
+12 Statistik Transportasi Sumatera Utara 2024
+
+14 Statistik Transportasi Sumatera Utara 2024
+
+Transportasi Darat 15
+III. TRANSPORTASI DARAT
+Untuk mengetahui dinamika transportasi darat di Provinsi Sumatera Utara, pada bagian ini akan disajikan secara ringkas berbagai aspek yang berhubungan dengan pergerakan transportasi darat tersebut —mulai dari sar ana dan prasarana— seperti panjang jalan dan kereta api. Perbandingan data dari beberapa tahun terakhir juga disajikan guna menunjukkan arah dan pola perkembangannya. Melalui ulasan ini, diharapkan berbagai informasi yang bermanfaat dapat diperoleh guna evaluasi dan pengembangan berikutnya.
+3.1 Panjang Jalan Untuk memahami peranan transportasi darat di Provinsi Sumatera Utara,
+bagian ini menyoroti jalan raya sebagai salah satu prasarana utama yang memiliki fungsi strategis dalam menghubungkan satu wilayah dengan wilayah lainnya.
+Keberadaan jalan sebagai penghubung antara sentra -sentra produksi dan daerah pemasaran memberikan kontribusi besar terhadap peningkatan aktivitas ekonomi di suatu daerah. Dalam bagian ini, data panjang jalan disajikan menurut kabupaten/kota, kewenangan pembinaan (pemerintah pusat, provinsi, dan kabupaten/kota), jenis permukaan, serta kondisi jalan.
+Gambar 3.1 Perbandingan Panjang Jalan Menurut Tingkat Kewenangan Pemerintah di Provinsi Sumatera Utara (%), 2024 Negara 6,44% Provinsi 7,39% Kabupaten/Kota 86,17%
+
+16 Statistik Transportasi Sumatera Utara 2024 Pada tahun 2024, panjang jalan di Provinsi Sumatera Utara mencapai 40.659,74 kilometer. Berdasarkan tingkat kewenangan pembinaan, jalan kabupaten/kota merupakan bagian yang terbesar yaitu 35.034,57 km atau sebesar 86,17 persen dari total panjang jalan di Provinsi Sumatera Utara , sebagaimana yang terlihat pada Gambar 3.1.
+Gambar 3.2 Panjang Jalan Provinsi Menurut Kondisi Jalan (%), 2024 Sementara itu, untuk jalan provinsi ada sepanjang 3.005,65 km. Merujuk pada Gambar 3.2, j ika d irinci berdasarkan kondisi, maka jalan provinsi dengan kondisi baik mencapai 50,94 persen, serta kondisi sedang mencapai 21,81 persen.
+Sisanya, memiliki kondisi rusak yakni sebesar 8,08 persen, dan rusak berat sebesar 19,17 persen dari total panjang jalan provinsi di Sumatera Utara tahun 2024.
+Gambar 3.3 Panjang Jalan Provinsi Menurut Jenis Permukaan (%), 2024 Pada tahun 2024, panjang jalan provinsi dengan jenis permukaan aspal Hotmix mencapai 86,70 persen dari total panjang jalan provinsi di Sumatera Utara, sedangkan aspal Lapen ada sebanyak 2,39 persen. Adapun jalan provinsi dengan permukaan beton ada sebanyak 0,89 persen, kerikil sebanyak 4,02 persen, dan tanah sebanyak 6,00 persen. Distribusi ini divisualisasikan pada Gambar 3.3.
+50,94% 21,81% 8,08% 19,17% Baik Sedang Rusak Rusak Berat Aspal (Hotmix), 86,70% Aspal (Lapen), 2,39% Beton, 0,89% Kerikil, 4,02% Tanah, 6,00%
+
+Transportasi Darat 17 Berdasarkan Gambar 3.4, te rlihat bahwa dibandingkan dengan tahun sebelumnya, panjang jalan provinsi dengan jenis permukaan aspal (baik Hotmix maupun Lapen) mengalami peningkatan dari 2.614,04 km pada tahun 2023 menjadi 2.677,48 km pada tahun 2024 (naik 2,43 persen). Sebaliknya, pan jang jalan dengan permukaan beton mengalami penurunan sebesar 21,64 persen, dari 34,14 km pada tahun 2023 menjadi 26,76 km pada tahun 2024. Untuk jenis permukaan kerikil, terjadi peningkatan cukup signifikan sebesar 143,38 persen, dari 49,70 km pada tahun 2023 menjadi 120,96 km pada tahun 2024. Adapun panjang jalan dengan permukaan tanah mengalami penurunan dari 307,77 km pada tahun 2023 menjadi 180,45 km pada tahun 2024 (turun 41,34 persen).
+Gambar 3.4 Panjang Jalan Provinsi Dirinci Menurut Jenis Permukaan (km), 2023–2024 3.2 Angkutan Kereta Api Angkutan Kereta Api merupakan salah satu sarana moda transportasi massal yang cepat dan populer untuk melayani kebutuhan masyarakat karena kemampuannya mengangkut penumpang dan barang dalam jumlah besar dengan waktu tempuh yang relatif singkat tanpa ada hambatan di jalur kereta.
+Ketersediaan angkutan kereta api sangat diperlukan dalam mendukung mobilitas penduduk maupun barang antar wilayah. Oleh karena itu, diperlukan indikator yang dapat memberikan gambaran mengenai perkembangan angkutan kereta api tersebut sebagai bagian dari pembangunan di sektor transportasi darat.
+Aspal Beton Kerikil Tanah 2023 2.614,04 34,14 49,70 307,77 2024 2.677,48 26,76 120,96 180,45 0,00 500,00
+1.000,00
+1.500,00 2.000,00 2.500,00 3.000,00
+
+18 Statistik Transportasi Sumatera Utara 2024
+Gambar 3.5 Perkembangan Km-Penumpang dan Km-Barang Angkutan Kereta Api, 2020– 2024 Selama periode 2020–2024, tercatat bahwa km-penumpang kereta api di Provinsi Sumatera Utara yang tertinggi terjadi pada tahun 2020 , yakni sebesar 131.327.063 km -penumpang. Setelah itu, jumlahnya menurun menjadi 93.354.053 km pada tahun 2021 dan turun tajam menjadi 1.631.842 km pada tahun 2023, se mentara pada tahun 2024 belum terdapat data yang tersedia .
+Untuk km -barang, nilai tertinggi tercatat pada tahun 2024 yakni sebesar 150.876.539 km -barang, yang mana meningkat tajam dibandingkan tahun sebelumnya yang hanya sebesar 744.463 km (naik sekitar 20,16 persen).
+Pada aspek pengangkutan barang, kereta api melayani pengiriman barang dalam bentuk kiriman biasa maupun cepat. Selama periode 2020 –2024, kiriman biasa untuk barang melalui angkutan kereta api yang tertinggi terjadi pada tahun 2020 yaitu sebesa r 815.409 ton, dan yang terendah pada tahun 2023 sebesar 3.779 ton. Pada tahun 2024, kiriman barang biasa mencapai 613.471 ton atau terjadi kenaikan lebih dari 16.000 persen dari yang semula sebanyak 3.779 ton pada tahun 2023.
+Untuk kiriman barang cepat, s elama periode 2020 –2024, total kiriman barang cepat yang tertinggi terjadi di tahun 2024 yaitu mencapai 351.046 ton.
+Adapun yang terendah adalah pada tahun 2023 yakni 3.596 ton. Pada tahun 2024, kiriman barang cepat melalui angkutan kereta api meningkat le bih dari 9.500 persen dari yang semula 3.596 ton pada tahun 2023, sebagaimana diilustrasikan pada Gambar 3.6.
+Km-Penumpang Km-Barang 2020 131.327.063 92.355.802 2021 93.354.053 86.695.421 2022 - 110.561.364 2023 1.631.842 744.463 2024 - 150.876.539 20.000.000 40.000.000 60.000.000 80.000.000 100.000.000 120.000.000 140.000.000 160.000.000
+
+Transportasi Darat 19
+Gambar 3.6 Perkembangan Kiriman Barang Cepat dan Biasa Angkutan Kereta Api, 2020– 2024 Kiriman Cepat (ton) Kiriman Biasa (ton) 2020 5.426 815.409 2021 6.017 697.262 2022 229.337 629.139 2023 3.596 3.779 2024 351.046 613.471 100.000 200.000 300.000 400.000 500.000 600.000 700.000 800.000 900.000
+
+20 Statistik Transportasi Sumatera Utara 2024
+
+Transportasi Darat 21
+
+22 Statistik Transportasi Sumatera Utara 2024
+
+Transportasi Laut 23
+IV. TRANSPORTASI LAUT
+Secara umum, kegiatan transportasi laut yang tercatat di pelabuhan terdiri dari bongkar & muat barang, kunjungan kapal, serta keberangkatan & kedatangan penumpang, baik untuk pelayaran dalam negeri maupun luar negeri. Pada pelabuhan yang diusahakan, a rus kunjungan kapal untuk pelayaran antarnegara selama tahun 2024 mencapai 2.259 unit, dengan GRT sebesar 18.472.912. Pada tahun yang sama, untuk arus kunjungan kapal antar pulau di pelabuhan yang diusahakan tersebut mencapai 3.474 unit, dengan G RT sebesar 17.063.778.
+Adapun pada pelabuhan yang tidak diusahakan, pelayaran antarpulau selama tahun 2024 ada sebanyak 2.892 unit, dengan GRT sebesar 679.623 ton.
+4.1 Kunjungan Kapal dan Penumpang Jika dibandingkan dengan tahun sebelumnya, arus kunjungan kapal untuk pelayaran antarnegara melalui pelabuhan yang diusahakan mengalami penurunan sebesar 27,13 persen, dari semula 3.100 unit pada tahun 2023 menjadi 2.259 unit pada tahun 2024. Tahun 2023 tercatat sebagai tahun dengan arus kunjungan kapal antarnegara yang tertinggi di antara kurun waktu 2020 –2024. Sementara itu, untuk pelayaran antarpulau melalui pelabuhan yang diusahakan, tercatat penurunan kunjungan se besar 16,37 persen, dari semula 4.154 unit pada tahun 2023 menjadi 3.474 unit pada tahun 2024. Hal ini dapat dilihat pada Gambar 4.1.
+Gambar 4.1 Perkembangan Kunjungan Kapal Antarnegara dan Antarpulau Melalui Pelabuhan yang Diusahakan (unit), 2020–2024 Antarnegara Antarpulau 2020 1.814 3.537 2021 2.245 7.076 2022 2.319 4.338 2023 3.100 4.154 2024 2.259 3.474
+1.000 2.000 3.000 4.000 5.000 6.000 7.000 8.000
+
+24 Statistik Transportasi Sumatera Utara 2024 Dari segi penumpang antarnegara, sebagaimana terlihat pada Gambar 4.2, selama periode 2020–2024 arus tertinggi, dari segi penumpang yang turun melalui pelabuhan yang diusahakan , terjadi pada tahun 2024, dengan jumlah 24.187 orang. Sejalan dengan itu, arus tertinggi dari segi penumpang yang naik juga tercatat pada tahun 2024, yaitu sebanyak 48.864 orang. Dibandingkan dengan tahun sebelumnya, arus penumpang yang turun pada tahun 2024 ini meningkat sebesar 61,67 persen, sedangkan arus penumpang yang naik meningkat sebes ar 34,89 persen.
+Gambar 4.2 Arus Penumpang Antarnegara Melalui Pelabuhan yang Diusahakan (orang), 2020–2024 Dari segi penumpang antarpulau, sebagaimana terlihat pada Gambar 4.3, selama periode 2020–2024 arus penumpang yang turun melalui pelabuhan yang diusahakan menunjukkan tren yang terus meningkat. Arus tertinggi dari segi penumpang yang turun ini, tercatat pa da tahun 2024 dengan jumlah 452.658 orang, atau meningkat sebesar 17,49 persen dibanding tahun 2023 yang berjumlah 385.273 orang. Sementara itu, arus terendah dalam kurun waktu tahun 2020-2024 ini terjadi di tahun 2020, yaitu sebanyak 155.785 orang.
+Untuk penumpang antarpulau yang naik melalui pelabuhan yang diusahakan, arus tertinggi terjadi pada tahun 2023, yakni sebanyak 450.239 orang.
+Turun Naik 2020 8.806 9.177 2021 221 0 2022 0 0 2023 14.961 36.224 2024 24.187 48.864 10.000 20.000 30.000 40.000 50.000 60.000
+
+Transportasi Laut 25 Pada tahun 2024, jumlah penumpang yang naik tercatat mengalami penurunan sebesar 2,71 persen, menjadi 438.056 orang. Ada pun arus terendah selama periode 2020–2024 tercatat pada tahun 2020, yaitu sebanyak 188.774 orang.
+Gambar 4.3 Arus Penumpang Antarpulau Turun dan Naik Melalui Pelabuhan yang Diusahakan (orang), 2020–2024 Jika ditinjau dari segi pelabuhan yang tidak diusahakan, berdasarkan
+Gambar 4.4 dapat diketahui bahwa, selama periode 2020 –2024, arus tertinggi terkait penumpang yang turun terjadi pada tahun 2020, yakni sebanyak 226.745 orang. Sementara itu, arus terendah dalam kurun waktu tersebut tercatat pada tahun 2024, yai tu sebanyak 20.651 orang. Jika dibandingkan dengan tahun sebelumnya, jumlah penumpang yang turun pada tahun 2024 mengalami penurunan sebesar 32,83 persen, dari yang semula 30.743 orang pada tahun 2023.
+Adapun untuk penumpang yang naik melalui pelabuhan yan g tidak diusahakan, arus tertinggi juga terjadi pada tahun 2020, dengan jumlah 231.220 orang. Sebaliknya, arus terendah selama periode 2020 –2024 tercatat pada tahun 2022, yaitu sebanyak 23.780 orang. Pada tahun 2024, arus penumpang yang naik tercatat sebanyak 25.409 orang, atau menurun sebesar 12,3 8 persen dibanding tahun 2023 yang berjumlah 28.999 orang.
+Turun Naik 2020 155.785 188.774 2021 205.172 212.288 2022 363.855 343.005 2023 385.273 450.239 2024 452.658 438.056 50.000 100.000 150.000 200.000 250.000 300.000 350.000 400.000 450.000 500.000
+
+26 Statistik Transportasi Sumatera Utara 2024
+Gambar 4.4 Arus Penumpang Turun dan Naik Melalui Pelabuhan yang Tidak Diusahakan (orang), 2020–2024 4.2 Bongkar Muat Barang Dari segi bongkar muat barang antarnegara, sebagaimana terlihat pada
+Gambar 4.5, selama periode 2020 –2024 arus bongkar barang melalui pelabuhan yang diusahakan menunjukkan fluktuasi. Arus tertinggi tercatat pada tahun 2022 sebesar 3.776.940 ton, sedangkan arus terendah terjadi pada tahun 2023 dengan volume 2.056.078 ton. Pada tahun 2024, volume bongkar tercatat ada sebanyak 2.184.679 ton, atau meningkat sebesar 6,25 persen dibanding tahun 2023.
+Untuk arus muat barang antarnegara melalui pelabuhan yang diusahakan, arus tertinggi selama periode 2020–2024 terjadi pada tahun 2021, yakni 5.627.821 ton, sedangkan arus terendah tercatat pada tahun 2020 dengan jumlah 1.253.772 ton. Pada tahun 2024, volume muat tercatat ada sebanyak 3.641.022 ton, atau menurun sebesar 14,44 persen dibanding tahun 2023 yang berjumlah 4.255.331 ton.
+Turun Naik 2020 226.745 231.220 2021 64.978 61.234 2022 35.879 23.780 2023 30.743 28.999 2024 20.651 25.409 50.000 100.000 150.000 200.000 250.000
+
+Transportasi Laut 27
+Gambar 4.5 Arus Bongkar Muat Barang Antarnegara Melalui Pelabuhan yang Diusahakan (ton), 2020–2024 Jika ditinjau dari segi antarpulau, maka arus bongkar muat barang selama periode 2020–2024 tersebut adalah sebagaimana yang tersaji pada Gambar 4.6.
+Dari gambar tersebut terlihat bahwa arus bongkar barang antarpulau melalui pelabuhan yang diusahakan menunjukkan fluktuasi yang cukup tajam. Nilai tertinggi tercatat pada tahun 2021, yaitu sebesar 27.041.536 ton, sedangkan nilai terendah terjadi pada tahun 2020, yakni 1.995.973 ton. Pada tahun 2024, arus bongkar barang mencapai 4.910.312 ton, atau menurun sebesar 8,95 persen dibandingkan tahun 2023 yang berjumlah 5.392.969 ton.
+Sementara itu, untuk barang yang dimuat antarpulau, arus tertinggi selama periode 2020 –2024 terjadi pada tahun 2020, yakni sebanyak 3.885.722 ton, sedangkan yang terendah tercatat pada tahun 2024 sebesar 377.538 ton.
+Dibandingkan dengan tahun 2023 (1.164.144 ton), arus muat ba rang tahun 2024 mengalami penurunan yang cukup tajam, yakni sebesar 67,57 persen.
+Bongkar Muat 2020 3.511.742 1.253.772 2021 2.141.554 5.627.821 2022 3.776.940 2.866.276 2023 2.056.078 4.255.331 2024 2.184.679 3.641.022
+1.000.000 2.000.000 3.000.000 4.000.000 5.000.000 6.000.000
+
+28 Statistik Transportasi Sumatera Utara 2024
+Gambar 4.6 Arus Bongkar Muat Barang Antarpulau Melalui Pelabuhan yang Diusahakan (ton), 2020–2024 Adapun kondisi a rus bongkar muat barang melalui pelabuhan yang tidak diusahakan pada periode 2020–2024, tersaji pada Gambar 4.7. Sebagaimana terlihat pada Gambar 4.7 tersebut, perkembangan arus bongkar muat ini menunjukkan fluktuasi yang cukup tajam. Untuk arus bongkar barang, nilai tertinggi tercatat pada tahun 2020, yakni sebesar 5. 080.292 ton, sedangkan nilai terendah terjadi pada tahun 2023 dengan jumlah 48.097 ton. Pada tahun 2024, arus bongkar barang tercatat sebesar 76.235 ton, atau meningkat 58,5 0 persen dibanding tahun sebelumnya.
+Sementara itu, untuk arus muat barang melalui pelabuhan yang tidak diusahakan, nilai tertinggi selama periode 2020-2024 tersebut terjadi pada tahun 2020, yaitu mencapai 730.833 ton, sedangkan yang terendah tercatat pada tahun 2023, yakni sebesar 110.404 ton. Selanjutnya pada tahun 2024, total barang yang dimuat tercatat mengalami peningkatan dibanding tahun 2023 tersebut yakni menjadi sebesar 119.835 ton, atau naik 8,54 persen dibanding tahun 2023.
+Bongkar Muat 2020 1.995.973 3.885.722 2021 27.041.536 802.457 2022 4.649.476 1.485.476 2023 5.392.969 1.164.144 2024 4.910.312 377.538 5.000.000 10.000.000 15.000.000 20.000.000 25.000.000 30.000.000
+
+Transportasi Laut 29
+Gambar 4.7 Arus Bongkar Muat Barang Melalui Pelabuhan yang Tidak Diusahakan (ton), 2020–2024 Bongkar Muat 2020 5.080.292 730.833 2021 72.619 143.847 2022 49.878 128.864 2023 48.097 110.404 2024 76.235 119.835
+1.000.000 2.000.000 3.000.000 4.000.000 5.000.000 6.000.000
+
+30 Statistik Transportasi Sumatera Utara 2024
+
+Statistik Transportasi Provinsi Sumatera Utara 2023 | 31
+
+32 Statistik Transportasi Sumatera Utara 2024
+
+Transportasi Udara 33
+V. TRANSPORTASI UDARA
+Bandar udara merupakan sebuah simpul dalam suatu sistem transportasi yang berfungsi sebagai terminal tempat terjadinya transfer perjalanan orang dan barang dari moda udara ke moda lain dan sebaliknya. Hal tersebut sesuai dengan Peraturan Pemerintah RI No.7 0 Tahun 2001 Tentang Kebandarudaraan, bahwa bandar udara adalah lapangan terbang yang dipergunakan untuk mendarat dan lepas landas pesawat udara, naik turun penumpang dan atau bongkar muat kargo dan atau pos/paket serta dilengkapi dengan fasilitas keselama tan penerbangan dan sebagai tempat pemindahan antar moda transportasi.
+Informasi transportasi udara yang disajikan dalam publikasi ini meliputi lalu lintas angkutan udara yang diproduksi di bandar udara Kualanamu, baik pada penerbangan domestik maupun int ernasional. Produksi suatu bandar udara (bandara) dapat dilihat dari indikator -indikator yang dihasilkan seperti jumlah pesawat yang berangkat dan datang; jumlah penumpang yang berangkat, datang dan transit; serta bagasi, barang dan pos/paket yang dibongka r dan dimuat di suatu bandar udara.
+5.1 Arus Pesawat
+Gambar 5.1 Jumlah Penerbangan Internasional Melalui Bandar Udara Kualanamu (kali), 2020–2024 Datang Berangkat 2020 2.001 2.021 2021 453 501 2022 3.237 3.211 2023 7.638 7.651 2024 8.442 8.654
+1.000 2.000 3.000 4.000 5.000 6.000 7.000 8.000 9.000 10.000
+
+34 Statistik Transportasi Sumatera Utara 2024 Berdasarkan informasi pada Gambar 5.1, selama periode 2020 –2024, jumlah kedatangan pesawat yang merupakan penerbangan internasional melalui Bandara Kualanamu menunjukkan tren peningkatan yang cukup tajam setelah sempat menurun pada awal periode. Nilai tere ndah tercatat pada tahun 2021, yaitu sebanyak 453 penerbangan, sedangkan nilai tertinggi terjadi pada tahun 2024 dengan jumlah 8.442 penerbangan. Jika dibandingkan dengan tahun 2023 yang tercatat memiliki 7.638 penerbangan, maka pada tahun 2024 terjadi kenaikan kedatangan pesawat yang merupakan penerbangan internasional sebesar 10,53 persen.
+Dari Gambar 5.1. , juga dapat diketahui bahwa , untuk keberangkatan pesawat yang merupakan penerbangan internasional, jumlah terendah juga terjadi pada tahun 2021, yakni 501 penerbangan, dan tertinggi pada tahun 2024 sebanyak 8.654 penerbangan. Dibandingkan dengan tahun 2023 yang berjumlah 7.651 penerbangan, jumlah keberangkatan pesawat untuk penerbangan internasional pada tahun 2024 meningkat 13,11 persen.
+Gambar 5.2 Jumlah Penerbangan Domestik Melalui Bandar Udara Kualanamu (kali), 2020–2024 Adapun pada sisi penerbangan domestik, selama periode 2020 –2024, jumlah kedatangan pesawat yang merupakan penerbangan domestik melalui Bandara Kualanamu menunjukkan fluktuasi yang cukup bervariasi. Nilai tertinggi tercatat pada tahun 2023, yakni sebanyak 2 1.819 kali penerbangan, sedangkan nilai terendah terjadi pada tahun 2021 dengan 15.575 penerbangan. Pada tahun 2024, jumlah kedatangan pesawat domestik tersebut menurun menjadi 18.171 Datang Berangkat 2020 15.966 15.937 2021 15.575 15.560 2022 21.720 21.719 2023 21.819 21.807 2024 18.171 17.955 5.000 10.000 15.000 20.000 25.000
+
+Transportasi Udara 35 penerbangan, atau berkurang sebesar 16,7 2 persen dibandingkan tahun sebelumnya yang mencapai 21.819 penerbangan.
+Sementara itu, untuk keberangkatan pesawat yang merupakan penerbangan domestik, tren yang terlihat juga relatif sejalan. Jumlah tertinggi terjadi pada tahun 2023, yaitu sebanyak 21.807 kali penerbangan, sedangkan terendah pada tahun 2021, yakni 15.560 penerbangan. Pada tahun 2024, jumlah keberangkatan domestik melalui Bandara Kualanamu menurun menjadi 17.955 kali penerbangan, atau turun sebesar 17,66 persen dibandingkan tahun 2023.
+5.2 Arus Penumpang Dari segi penumpa ng, selama periode 2020 –2024, jumlah penumpang pada penerbangan internasional dan datang melalui Bandara Kualanamu menunjukkan tren peningkatan yang sangat signifikan setelah sempat mengalami penurunan tajam di awal periode. Arus tertinggi tercatat pada ta hun 2024, yakni sebanyak 1.137.895 orang, sedangkan arus terendah terjadi pada tahun 2021, yaitu hanya 21.854 orang. Jika dibandingkan dengan tahun sebelumnya yang berjumlah 944.061 orang, maka pada tahun 2024 jumlah kedatangan penumpang internasional ini meningkat sebesar 20,5 3 persen. Perkembangan tersebut tervisualisasikan pada Gambar 5.3 berikut.
+Gambar 5.3 Jumlah Penumpang Internasional Melalui Bandar Udara Kualanamu (orang), 2020–2024 Dari Gambar 5.3 tersebut, juga dapat terlihat bahwa jumlah penumpang yang berangkat pada penerbangan internasional melalui Bandara Kualanamu juga memperlihatkan pola yang serupa. Nilai tertinggi selama periode 2020 –2024 Datang Berangkat 2020 220.543 188.440 2021 21.854 3.150 2022 403.290 415.483 2023 944.061 924.914 2024 1.137.895 1.118.844 200.000 400.000 600.000 800.000
+1.000.000
+1.200.000
+
+36 Statistik Transportasi Sumatera Utara 2024 terjadi pada tahun 2024, yakni sebanyak 1.118.844 orang, sedangkan yang terendah tercatat pada tahun 202 1 dengan 3.150 orang. Dibandingkan dengan tahun 2023 yang tercatat ada sebanyak 924.914 penumpang, maka jumlah penumpang keberangkatan internasional pada tahun 2024 tersebut meningkat sebesar 20,97 persen.
+Gambar 5.4 Jumlah Penumpang Domestik Melalui Bandar Udara Kualanamu (orang), 2020– 2024 Dari sisi penerbangan domestik, selama periode 2020 –2024 jumlah penumpang yang datang melalui Bandara Kualanamu menunjukkan fluktuasi yang cukup dinamis. Arus tertinggi tercatat pada tahun 2023 dengan jumlah 2.739.959 orang, se dangkan arus terendah terjadi pada tahun 2020, yakni sebanyak
+1.494.517 orang. Pada tahun 2024, jumlah penumpang domestik yang datang tercatat sebanyak 2.397.844 orang, atau menurun sebesar 12,49 persen dibandingkan tahun sebelumnya yang berjumlah 2.739.959 orang. Perkembangan ini divisualisasikan pada Gambar 5.4 berikut.
+Sementara itu, untuk penumpang domestik yang berangkat melalui Bandara Kualanamu, pola pergerakannya relatif sejalan. Arus tertinggi selama periode 2020 –2024 terjadi pada tahun 2023 dengan jumlah 2.540.414 orang, sedangkan arus terendah tercatat pada tahun 2020, yaitu sebanyak 1.313.192 orang. Pada tahun 2024, jumlah penumpang domestik yang berangkat menurun menjadi 2.320.210 orang, atau berkurang sebesar 8,67 persen dibandingkan tahun sebelumnya yang berjumlah 2.540.414 orang.
+Datang Berangkat 2020 1.494.517 1.313.192 2021 1.516.094 1.357.630 2022 2.486.376 2.350.517 2023 2.739.959 2.540.414 2024 2.397.844 2.320.210 500.000
+1.000.000
+1.500.000 2.000.000 2.500.000 3.000.000
+
+Transportasi Udara 37 5.3 Bongkar Muat Bagasi dan Barang Selama periode 2020 –2024, jumlah bagasi internasional yang dibongkar melalui Bandar Udara Kualanamu mencatat angka tertinggi pada tahun 2024 (yakni 13.818.599 kg bagasi) dan yang teren dah adalah pada tahun 2021 ( yakni 496.149 kg bagasi). Di tahun 2024, jumlah bagasi internasional yang dibongkar meningkat signifikan sebesar 22,80 persen dibandingkan tahun sebelumnya, yakni 11.253.348 kg bagasi. Informasi ini divisualisasikan pada Gambar 5.5.
+Gambar 5.5 Jumlah Bagasi Internasional Melalui Bandar Udara Kualanamu (kg), 2020–2024 Berdasarkan Gambar 5.5. juga dapat diketahui bahwa selama periode 2020–2024, jumlah bagasi internasional yang dimuat melalui Bandara Kualanamu mencapai level terendah pada tahun 2021 (yakni 103.547 kg bagasi). Sementara itu, level tertinggi terjadi pada tahun 2024 (yakni 9.005.102 kg bagasi). Pada tahun 2024 tersebut, terjadi peningkatan jumlah bagasi yang dimuat sebesar 18,42 persen dibandingkan tahun sebelumnya (yaitu 7.604.675 kg bagasi).
+Adapun untuk bagasi domestik, selama periode 2020–2024, level terendah bongkar dan muat barang terjadi pada tahun 2020, yakni sebanyak 8.421.950 bagasi yang dibongkar dan sebanyak 9.037.281 bagasi yang dimuat. Sementara itu, level ter tinggi untuk bongkar dan muat bagasi domestik terjadi pada tahun 2023, yakni 22.578.556 bagasi yang dibongkar dan sebanyak 24.193.372 bagasi yang dimuat. Pada tahun 2024, jumlah bagasi mengalami penurunan menjadi 19.383.010 bagasi yang dibongkar (turun 14, 15 persen) dan 20.764.028 bagasi yang dimuat (turun 14,17 persen). Informasi ini diilustrasikan lewat Gambar 5.6 berikut.
+Bongkar Muat 2020 2.953.899 1.645.193 2021 496.149 103.547 2022 5.635.983 4.075.431 2023 11.253.348 7.604.675 2024 13.818.599 9.005.102 2.000.000 4.000.000 6.000.000 8.000.000 10.000.000 12.000.000 14.000.000 16.000.000
+
+38 Statistik Transportasi Sumatera Utara 2024
+Gambar 5.6 Jumlah Bagasi Domestik Melalui Bandar Udara Kualanamu (kg), 2020–2024 Adapun untuk informasi bongkar dan muat barang pada penerbangan internasional melalui Bandara Kualanamu selama periode 2020 –2024 dapat divisualisasikan sebagaimana pada Gambar 5.7. Level terendah terjadi pada tahun 2021, yakni 171.447 kg yang dibongkar dan 261.925 kg yang dimuat . Sementara itu, level tertinggi barang yang dibongkar terjadi pada tahun 2020 yakni sebanyak 2.566.041 kg dan tertinggi pada barang yang di muat terjadi di tahun 2024 yaitu 2.350.773 kg. Dibanding tahun sebelumnya, barang yang dimuat pada 2024 tersebut meningkat sebanyak 33,38 persen dibanding tahun sebelumnya yakni
+1.762.414 k g. Adapun barang yang dibongkar pada tahun 2024 juga meningkat walau tipis (0,55 persen) dibanding tahun 2023, yaitu menjadi 492.344 kg.
+Gambar 5.7 Jumlah Barang Internasional Melalui Bandar Udara Kualanamu (kg), 2020–2024 Bongkar Muat 2020 8.421.950 9.037.281 2021 10.723.212 12.122.269 2022 21.049.652 23.222.412 2023 22.578.556 24.193.372 2024 19.383.010 20.764.028 5.000.000 10.000.000 15.000.000 20.000.000 25.000.000 30.000.000 Bongkar Muat 2020 2.566.041 613.406 2021 171.447 261.925 2022 215.505 579.582 2023 489.642 1.762.414 2024 492.344 2.350.773 500.000
+1.000.000
+1.500.000 2.000.000 2.500.000 3.000.000
+
+Transportasi Udara 39
+Gambar 5.8 Jumlah Barang Domestik Melalui Bandar Udara Kualanamu (kg), 2020–2024 Informasi terkait barang domestik yang dibongkar dan dimuat melalui Bandara Kualanamu selama periode 2020 –2024 tersaji pada Gambar 5.8. Level terendah untuk barang yang dibongkar tercatat pada tahun 2020 (sebanyak 27.837.460 kg ), sedangkan level tertinggi terjadi pada tahun 2021 (sebanyak 39.805.111 kg). Sementara itu, untuk barang yang dimuat, level terendah terjadi pada tahun 2023 (sebanyak 16.240.464 kg ) dan level tertinggi pada tahun 2021 (sebanyak 18.058.716 kg). Dibanding tahun sebelumnya, pada tahun 2024 barang yang dibongkar meningkat menjadi 38.319.297 kg ( meningkat 29,32 persen dari 29.631.527 kg pada tahun 2023), sedangkan barang yang dimuat juga meningkat menjadi 17.755.706 kg (meningkat 9,33 persen dari 16.240.464 kg pada 2023).
+Bongkar Muat 2020 27.837.460 17.514.996 2021 39.805.111 18.058.716 2022 33.586.254 16.268.774 2023 29.631.527 16.240.464 2024 38.319.297 17.755.706 5.000.000 10.000.000 15.000.000 20.000.000 25.000.000 30.000.000 35.000.000 40.000.000 45.000.000
+
+40 Statistik Transportasi Sumatera Utara 2024
+
+Transportasi Udara 41
+TABEL-TABEL
+
+42 Statistik Transportasi Sumatera Utara 2024
+
+Tabel-tabel 43
+Tabel 1 Panjang Jalan Menurut Kabupaten/Kota dan Tingkat Kewenangan Pemerintahan (km) di Provinsi Sumatera Utara, 2024 Kabupaten/Kota Tingkat Kewenangan Nasional Provinsi Kabupaten/Kota
+(1) (2) (3) (4) 1 Nias 45,36 12,30 735,48 2 Mandailing Natal 236,44 173,21 1.848,48 3 Tapanuli Selatan 241,74 113,12 1.195,65 4 Tapanuli Tengah 191,73 56,50 722,57 5 Tapanuli Utara 141,06 199,30 1.074,01 6 Toba 62,32 192,68 746,10 7 Labuhanbatu 43,74 141,50 1.217,00 8 Asahan 81,55 254,56 1.398,13 9 Simalungun 160,09 219,76 1.803,78 10 Dairi 129,41 81,50 1.605,29 11 Karo 165,89 69,80 1.218,15 12 Deli Serdang 120,80 146,87 3.670,71 13 Langkat 84,22 164,60 1.561,30 14 Nias Selatan 107,13 23,70 743,62 15 Humbang Hasundutan 47,24 137,14 891,96 16 Pakpak Bharat 39,65 57,75 608,15 17 Samosir 168,11 74,45 771,21 18 Serdang Bedagai 69,02 170,74 868,53 19 Batu Bara 77,17 55,65 639,08 20 Padang Lawas Utara 76,72 128,50 1.395,80 21 Padang Lawas - 161,42 1.104,10 22 Labuhanbatu Selatan 103,79 - 984,30 23 Labuhanbatu Utara 56,15 34,00 1.023,34 24 Nias Utara - 118,60 971,30 25 Nias Barat - 84,30 640,39 71 Kota Sibolga 9,72 4,06 51,98 72 Kota Tanjung Balai 12,41 8,71 189,94 73 Kota Pematang Siantar 17,74 13,32 580,55 74 Kota Tebing Tinggi 14,45 6,97 223,05 75 Kota Medan 70,72 37,55 3.279,50 76 Kota Binjai - 6,65 362,83 77 Kota Padangsidimpuan 26,33 32,20 475,00 78 Kota Gunungsitoli 18,82 24,24 433,29 Sumatera Utara 2.619,52 3.005,65 35.034,57
+
+44 Statistik Transportasi Sumatera Utara 2024
+Tabel 2 Panjang Jalan Provinsi Menurut Kabupaten/Kota dan Jenis Permukaan (km), 2024 Kabupaten/Kota Jenis Permukaan Jalan Aspal (Hotmix) Aspal (Lapen) Beton Kerikil Tanah
+(1) (2) (3) (4) (5) (6) 1 Nias 12,10 – 0,20 – – 2 Mandailing Natal 150,95 – 1,00 2,66 18,60 3 Tapanuli Selatan 101,32 – 0,40 0,80 10,60 4 Tapanuli Tengah 56,50 – – – – 5 Tapanuli Utara 191,50 0,40 – 3,20 4,20 6 Toba 133,58 – – 59,10 – 7 Labuhanbatu 118,90 1,20 0,40 0,20 20,80 8 Asahan 181,38 – 5,60 – 67,58 9 Simalungun 216,56 2,60 0,60 – – 10 Dairi 72,50 4,80 – 0,60 3,60 11 Karo 69,80 – – – – 12 Deli Serdang 146,67 – 0,20 – – 13 Langkat 162,90 – – 0,40 1,30 14 Nias Selatan 21,10 2,40 0,20 – – 15 Humbang Hasundutan 133,94 0,40 – 2,20 0,60 16 Pakpak Bharat 57,75 – – – – 17 Samosir 25,58 6,00 3,80 6,40 32,67 18 Serdang Bedagai 170,54 – 0,20 – – 19 Batu Bara 52,65 – 3,00 – – 20 Padang Lawas Utara 95,90 15,60 – 14,60 2,40 21 Padang Lawas 138,42 – – 18,40 4,60 22 Labuhanbatu Selatan – – – – – 23 Labuhanbatu Utara 30,60 – 1,40 0,20 1,80 24 Nias Utara 101,50 0,40 – 5,00 11,70 25 Nias Barat 43,80 37,90 2,60 – – 71 Kota Sibolga 3,40 – 0,66 – – 72 Kota Tanjung Balai 8,71 – – – – 73 Kota Pematang Siantar 12,72 – 0,60 – – 74 Kota Tebing Tinggi 6,97 – – – – 75 Kota Medan 31,85 – 5,50 0,20 – 76 Kota Binjai 6,65 – – – – 77 Kota Padangsidimpuan 25,00 – 0,20 7,00 – 78 Kota Gunungsitoli 24,04 – 0,20 – – Sumatera Utara 2.605,78 71,70 26,76 120,96 180,45
+
+Tabel-tabel 45
+Tabel 3 Panjang Jalan Provinsi Menurut Kabupaten/Kota dan Kondisi Jalan (km), 2024 Kabupaten/Kota Kondisi Jalan Baik Sedang Rusak Rusak Berat
+(1) (2) (3) (4) (5) 1 Nias 0,50 6,00 0,40 5,40 2 Mandailing Natal 94,55 39,80 11,40 27,46 3 Tapanuli Selatan 48,20 29,27 5,80 29,85 4 Tapanuli Tengah 39,60 10,80 1,30 4,80 5 Tapanuli Utara 134,50 37,00 14,00 13,80 6 Toba 102,38 20,20 5,20 64,90 7 Labuhanbatu 77,80 29,20 10,20 24,30 8 Asahan 90,28 53,00 20,90 90,38 9 Simalungun 115,38 51,40 27,80 25,18 10 Dairi 51,10 9,40 4,00 17,00 11 Karo 49,50 14,30 4,80 1,20 12 Deli Serdang 90,67 37,80 8,60 9,80 13 Langkat 103,50 37,50 8,20 15,40 14 Nias Selatan 2,00 10,10 4,60 7,00 15 Humbang Hasundutan 92,35 16,59 23,80 4,40 16 Pakpak Bharat 38,80 12,45 4,80 1,70 17 Samosir 20,78 9,00 1,80 42,87 18 Serdang Bedagai 90,72 52,42 16,40 11,20 19 Batu Bara 37,60 11,05 3,80 3,20 20 Padang Lawas Utara 51,90 36,00 4,80 35,80 21 Padang Lawas 71,12 47,10 6,20 37,00 22 Labuhanbatu Selatan – – – – 23 Labuhanbatu Utara 26,40 2,60 1,40 3,60 24 Nias Utara 26,10 28,20 17,80 46,50 25 Nias Barat 4,00 18,60 24,90 36,80 71 Kota Sibolga 2,40 0,86 0,60 0,20 72 Kota Tanjung Balai 6,47 2,04 – 0,20 73 Kota Pematang Siantar 9,16 4,16 – – 74 Kota Tebing Tinggi 6,57 0,40 – – 75 Kota Medan 28,95 7,40 1,00 0,20 76 Kota Binjai 6,59 0,06 – – 77 Kota Padangsidimpuan 7,40 11,00 0,40 13,40 78 Kota Gunungsitoli 3,70 9,84 8,10 2,60 Sumatera Utara 1.530,97 655,54 243,00 576,14
+
+46 Statistik Transportasi Sumatera Utara 2024
+Tabel 4 Panjang Jalan Provinsi Menurut Jenis Permukaan dan Kondisi (km), 2024 Keadaan Panjang Jalan (km)
+(1) (2) Jenis Permukaan
+- Diaspal 2.605,78
+- Beton 71,70
+- Kerikil 26,76
+- Tanah 120,96
+- Tidak Dirinci 180,45 Total Panjang Jalan Provinsi 3.005,65 Kondisi
+- Baik 1.530,97
+- Sedang 655,54
+- Rusak 243,00
+- Rusak Berat 576,14
+- Tidak Dirinci – Total Panjang Jalan Provinsi 3.005,65
+
+Tabel-tabel 47
+Tabel 5 Km-Penumpang dan Km-Barang Angkutan Kereta Api Dirinci Menurut Bulan, 2024 Bulan Kilometer Penumpang Kilometer Barang Hasil Perkebunan BBM Lain-lain
+(1) (2) (3) (4) (5) Januari – 1.908.783 5.087.241 4.860.052 Februari – 2.546.054 4.606.857 8.553.746 Maret – 1.964.243 4.781.433 5.226.468 April – 2.133.096 5.387.672 4.286.440 Mei – 1.678.478 5.094.318 6.331.212 Juni – 2.583.750 4.737.221 5.484.112 Juli – 2.977.287 5.386.976 5.821.187 Agustus – 2.947.061 2.492.867 4.915.536 September – 3.029.880 4.948.560 4.662.447 Oktober – 3.350.385 5.005.415 4.093.883 Nopember – 2.972.424 5.122.907 4.380.972 Desember – 2.431.005 5.186.917 3.899.654 Jumlah – 30.522.446 57.838.384 62.515.709
+
+48 Statistik Transportasi Sumatera Utara 2024
+Tabel 6 Kiriman Biasa/Umum Barang Swasta Angkutan Kereta Api Dirinci Menurut Bulan (ton), 2021–2024 Bulan Tahun 2021 2022 2023 2024
+(1) (2) (3) (4) (5) Januari 63.319 55.786 55.797 79.279 Februari 49.739 51.604 56.404 91.564 Maret 60.262 64.137 65.344 72.047 April 51.792 73.284 60.900 77.685 Mei 54.246 71.553 63.124 88.819 Juni 60.072 70.596 58.888 83.663 Juli 59.390 67.100 63.754 84.376 Agustus 59.513 80.681 63.683 80.435 September 61.129 81.352 60.880 71.898 Oktober 64.644 92.560 67.790 76.870 Nopember 60.681 80.815 67.735 77.452 Desember 57.642 69.007 60.163 71.898 Jumlah 702.429 858.475 744.462 955.986
+
+Tabel-tabel 49
+Tabel 7 Kiriman Barang Cepat dan Biasa Angkutan Kereta Api Dirinci Menurut Bulan, 2024 Bulan Kiriman Cepat (ton) Kiriman Biasa (ton) Kiriman Cepat (km-ton) Kiriman Biasa (km-ton)
+(1) (2) (3) (4) (5) Januari 33,716 45,563 5.268.901 6.587.175 Februari 29,963 61,601 4.746.087 10.960.570 Maret 23,606 48,441 4.940.553 7.031.591 April 34,878 42,807 5.526.902 6.280.306 Mei 33,003 55,816 5.233.548 7.870.460 Juni 30,773 52,889 4.889.711 7.915.372 Juli 28,243 56,133 5.565.986 8.619.464 Agustus 26,663 53,772 2.665.247 7.690.217 September 26,892 53,538 5.107.680 7.533.208 Oktober 27,137 49,733 5.184.425 7.265.257 Nopember 27,988 49,464 5.288.657 7.187.647 Desember 28,184 43,714 5.339.407 6.178.169 Jumlah 351,046 613,471 59.757.104 91.119.436
+
+50 Statistik Transportasi Sumatera Utara 2024
+Tabel 8 Kiriman Cepat dan Biasa/Umum Barang Swasta Angkutan Kereta Api Dirinci Menurut Jenis Barang (ribu ton), 2021–2024 Jenis Barang Tahun 2021 2022 2023 2024
+(1) (2) (3) (4) (5) Bahan Bangunan – – – – Hasil Perkebunan 185,24 261,07 249,99 193,54 Hasil Hutan – – – – Perabot Rumah Tangga – – – – Beras. Garam. Tepung – – – – Gula – – – – Bungkil. Dedak – – – – Hasil Tambang dan Minyak Bumi 330,83 369,84 472,17 341,83 Pupuk – – – – Semen – – – – Arang – – – – Lain-lain 14,24 41,91 22,30 481,19 Jumlah 530,31 672,82 744,46 1.016,56
+
+Tabel-tabel 51
+Tabel 9 Arus Kunjungan Kapal Melalui Pelabuhan yang Diusahakan Dirinci Menurut Bulan, 2024 Bulan Antarnegara Antarpulau Unit Grt Unit Grt
+(1) (2) (3) (4) (5) Januari 184 1.279.482 298 1.560.344 Februari 167 1.511.124 286 1.411.281 Maret 203 1.644.382 271 1.383.163 April 177 1.540.809 248 1.068.186 Mei 178 1.405.417 269 1.463.413 Juni 165 1.504.601 268 1.354.947 Juli 215 1.678.748 327 1.657.548 Agustus 214 1.808.095 299 1.385.133 September 189 1.580.328 321 1.355.639 Oktober 232 1.946.655 320 1.561.865 Nopember 182 1.397.459 267 1.505.206 Desember 153 1.175.812 300 1.357.053 Jumlah 2.259 18.472.912 3.474 17.063.778
+
+52 Statistik Transportasi Sumatera Utara 2024
+Tabel 10 Arus Penumpang Melalui Pelabuhan yang Diusahakan Dirinci Menurut Bulan (orang), 2024 Bulan Antarnegara Antarpulau Turun Naik Turun Naik
+(1) (2) (3) (4) (5) Januari 1.572 2.998 42.516 69.808 Februari 1.353 1.995 28.556 28.668 Maret 1.617 2.816 27.653 24.476 April 2.594 2.990 52.391 51.661 Mei 1.852 6.971 28.680 28.807 Juni 1.933 3.698 39.202 34.608 Juli 2.438 5.828 49.567 45.697 Agustus 2.082 4.616 31.203 30.540 September 2.038 3.993 24.924 23.561 Oktober 2.110 4.124 30.343 25.946 Nopember 2.003 3.983 31.537 26.451 Desember 2.595 4.852 66.086 47.833 Jumlah 24.187 48.864 452.658 438.056
+
+Tabel-tabel 53
+Tabel 11 Arus Barang Melalui Pelabuhan yang Diusahakan Dirinci Menurut Bulan (ton), 2024 Bulan Antarnegara Antarpulau Bongkar Muat Bongkar Muat
+(1) (2) (3) (4) (5) Januari 202.011 206.871 497.445 9.523 Februari 139.987 220.892 342.457 9.372 Maret 208.902 251.638 364.516 23.089 April 280.450 246.168 333.298 32.254 Mei 85.115 319.323 424.439 30.307 Juni 161.870 314.118 383.604 29.474 Juli 185.556 428.880 533.627 40.583 Agustus 253.949 338.148 340.320 57.382 September 143.695 428.015 423.145 53.944 Oktober 200.616 387.929 378.505 47.878 Nopember 133.118 214.264 428.254 27.595 Desember 189.410 284.776 460.702 16.138 Jumlah 2.184.679 3.641.022 4.910.312 377.538
+
+54 Statistik Transportasi Sumatera Utara 2024
+Tabel 12 Arus Penumpang Melalui Pelabuhan yang Diusahakan Dirinci Menurut Pelabuhan (orang), 2024 Bulan Antarnegara Antarpulau Turun Naik Turun Naik
+(1) (2) (3) (4) (5) Belawan/Pangkalan Berandan/Pangkalan Susu 306 306 128.405 145.540 Sibolga – – 106.843 118.715 Gunung Sitoli – – 217.410 173.801 Tanjungbalai Asahan 23.881 48.558 – – Kuala Tanjung – – – – Jumlah 24.187 48.864 452.658 438.056
+
+Tabel-tabel 55
+Tabel 13 Arus Barang Melalui Pelabuhan yang Diusahakan Dirinci Menurut Pelabuhan (ton), 2024 Bulan Antarnegara Antarpulau Bongkar Muat Bongkar Muat
+(1) (2) (3) (4) (5) Belawan/Pangkalan Berandan/Pangkalan Susu 2.184.679 3.248.015 4.519.339 352.904 Sibolga – – 155.533 23.514 Gunung Sitoli – – 96.228 1.115 Tanjungbalai Asahan – – – – Kuala Tanjung – 393.007 139.212 5 Jumlah 2.184.679 3.641.022 4.910.312 377.538
+
+56 Statistik Transportasi Sumatera Utara 2024
+Tabel 14 Arus Kunjungan Kapal Melalui Pelabuhan Laut yang Tidak Diusahakan Dirinci Menurut Pelabuhan (unit), 2024 Pelabuhan Antarpulau Unit Grt
+(1) (2) (3)
+1. Barus - -
+2. Lahewa 144,00 18.683,00 3. Leidong 82,00 31.001,00 4. Pantai Cermin 255,00 1.069,00 5. Pantai Labu 418,00 188.072,00 6. Percut 244,00 1.170,00 7. Pulau Tello 557,00 126.369,00 8. Rantau Panjang 244,00 1.284,00 9. Sei Berombang 21,00 676,00 10. Sikara-Kara/Natal – – 11. Sirombu 19,00 6.850,00 12. Tanjung Beringin 429,00 3.804,00 13. Tanjung Sarang Elang 17,00 11.716,00 14. Teluk Dalam 462,00 288.929,00 Jumlah 2.892,00 679.623,00
+
+Tabel-tabel 57
+Tabel 15 Arus Barang dan Penumpang Melalui Pelabuhan yang Tidak Diusahakan Dirinci Menurut Bulan, 2024 Bulan Penumpang (orang) Barang (ton) Turun Naik Bongkar Muat
+(1) (2) (3) (4) (5) Januari 2.116 5.006 2.982,00 10.373,34 Februari 1.442 1.467 4.502,00 7.015,90 Maret 1.834 2.472 2.769,00 11.448,54 April 2.835 2.873 13.546,00 6.134,77 Mei 2.401 2.067 10.089,00 7.632,57 Juni 2.477 3.105 2.074,00 17.508,65 Juli 3.039 3.465 3.353,00 6.584,78 Agustus 1.699 2.088 8.450,00 13.319,09 September 1.669 1.927 16.409,00 15.406,29 Oktober 447 397 2.611,00 7.867,48 Nopember 305 246 7.098,00 10.372,60 Desember 387 296 2.352,00 6.171,06 Jumlah 20.651 25.409 76.235,00 119.835,07
+
+58 Statistik Transportasi Sumatera Utara 2024
+Tabel 16 Arus Barang dan Penumpang Melalui Pelabuhan yang Tidak Diusahakan Dirinci Menurut Pelabuhan, 2024 Pelabuhan Penumpang (orang) Barang (ton) Turun Naik Bongkar Muat
+(1) (2) (3) (4) (5)
+1. Barus – – – – 2. Lahewa 618,00 706,00 119,00 9.563,00 3. Leidong – 47,00 – 6.556,07 4. Pantai Cermin – – – – 5. Pantai Labu – – – – 6. Percut – – – – 7. Pulau Tello 3.162,00 2.441,00 13.108,00 83.623,00 8. Rantau Panjang – – – – 9. Sei Berombang 1.215,00 1.166,00 – – 10. Sikara-Kara/Natal – – – – 11. Sirombu 23,00 23,00 31.695,00 – 12. Tanjung Beringin – – – – 13. Tanjung Sarang Elang – – – 17.500,00 14. Teluk Dalam 15.633,00 21.026,00 31.313,00 2.593,00 Jumlah 20.651,00 25.409,00 76.235,00 119.835,07
+
+Tabel-tabel 59
+Tabel 17 Jumlah Penerbangan Internasional dan Domestik Melalui Bandar Udara Kualanamu Dirinci Menurut Bulan (kali), 2024 Bulan Internasional Domestik Datang Berangkat Datang Berangkat
+(1) (2) (3) (4) (5) Januari 655 656 1.726 1.726 Februari 660 660 1.460 1.462 Maret 645 645 1.429 1.425 April 692 692 1.655 1.656 Mei 676 814 1.632 1.494 Juni 734 771 1.468 1.436 Juli 767 712 1.535 1.587 Agustus 697 701 1.396 1.384 September 726 749 1.492 1.474 Oktober 713 726 1.349 1.332 Nopember 707 726 1.332 1.320 Desember 770 802 1.697 1.659 Jumlah 8.442 8.654 18.171 17.955
+
+60 Statistik Transportasi Sumatera Utara 2024
+Tabel 18 Jumlah Penumpang Internasional dan Domestik Melalui Bandar Udara Kualanamu Dirinci Menurut Bulan (orang), 2024 Bulan Internasional Domestik Datang Berangkat Transit Datang Berangkat Transit
+(1) (2) (3) (4) (5) (6) (7) Januari 94.184 91.868 – 198.706 225.772 16.630 Februari 91.930 92.782 2 179.372 178.374 14.430 Maret 85.589 77.563 2 184.836 158.265 13.299 April 98.730 100.796 – 225.678 230.344 13.219 Mei 84.987 90.322 2 192.714 191.394 12.690 Juni 92.341 102.705 32 202.336 190.287 10.270 Juli 106.889 88.189 – 214.016 216.423 10.371 Agustus 90.849 90.201 – 189.341 190.270 7.418 September 95.780 95.557 – 206.099 205.372 8.818 Oktober 93.981 88.873 – 183.763 177.282 6.572 Nopember 92.884 89.206 1 176.016 167.498 6.302 Desember 109.751 110.782 – 244.967 188.929 8.199 Jumlah 1.137.895 1.118.844 39 2.397.844 2.320.210 128.218
+
+Tabel-tabel 61
+Tabel 19 Jumlah Bagasi Internasional dan Domestik Melalui Bandar Udara Kualanamu Dirinci Menurut Bulan (kg), 2024 Bulan Internasional Domestik Bongkar Muat Bongkar Muat
+(1) (2) (3) (4) (5) Januari 1.206.607 739.426 1.721.268 2.226.803 Februari 1.070.556 784.908 1.406.134 1.654.245 Maret 1.303.757 620.006 1.476.071 1.440.731 April 1.262.318 868.761 1.974.151 2.294.002 Mei 910.336 730.560 1.498.722 1.632.839 Juni 998.589 763.236 1.695.765 1.655.445 Juli 1.201.861 646.316 1.752.194 2.003.453 Agustus 1.091.811 739.835 1.446.438 1.619.654 September 1.171.329 765.017 1.629.385 1.826.739 Oktober 1.131.584 705.125 1.372.299 1.453.088 Nopember 1.137.134 724.438 1.321.227 1.370.749 Desember 1.332.717 917.474 2.089.356 1.586.280 Jumlah 13.818.599 9.005.102 19.383.010 20.764.028
+
+62 Statistik Transportasi Sumatera Utara 2024
+Tabel 20 Jumlah Barang Internasional dan Domestik Melalui Bandar Udara Kualanamu Dirinci Menurut Bulan (kg), 2024 Bulan Internasional Domestik Bongkar Muat Bongkar Muat
+(1) (2) (3) (4) (5) Januari 22.278 10.542 2.600.033 2.121.873 Februari 28.404 137.449 2.657.052 1.400.687 Maret 32.617 118.974 3.506.867 1.490.030 April 40.986 164.156 2.747.799 1.259.118 Mei 57.234 219.342 3.170.924 1.408.894 Juni 38.811 221.502 3.026.010 1.282.010 Juli 45.175 256.367 3.345.655 1.451.667 Agustus 39.686 276.206 3.224.034 1.359.671 September 36.536 26.501 3.169.754 1.451.508 Oktober 47.382 279.102 3.255.730 1.347.270 Nopember 34.730 283.819 3.548.050 1.432.624 Desember 68.505 356.813 4.067.389 1.750.354 Jumlah 492.344 2.350.773 38.319.297 17.755.706
+
+Tabel-tabel 63
+Tabel 21 Jumlah Pos Internasional dan Domestik Melalui Bandar Udara Kualanamu Dirinci Menurut Bulan (kg), 2024 Bulan Internasional Domestik Bongkar Muat Bongkar Muat
+(1) (2) (3) (4) (5) Januari – – – – Februari – – – – Maret – – – – April – – – – Mei – – – – Juni – – 33,00 – Juli – – – – Agustus – – – – September – – – 195,00 Oktober – – – – Nopember – – – – Desember – – 9,00 68,00 Jumlah – – 42,00 263,00
+
+64 Statistik Transportasi Sumatera Utara 2024
+
+Daftar Pustaka 65
+DAFTAR PUSTAKA
+Badan Pusat Statistik (BPS) Provinsi Sumatera Utara. (202 5). Provinsi Sumatera Utara dalam Angka 2024 (Vol. 5 3).
+a/provinsi-sumatera-utara-dalam-angka-2025.html Badan Pusat Statistik (BPS) Sumatera Utara. ( 2024). Statistik Transportasi Provinsi Sumatera Utara 2024 (Vol. 5).
+/statistik-transportasi-provinsi-sumatera-utara-2023.html Badan Pusat Statistik Republik Indonesia. (2015). Peraturan Kepala Badan Pusat Statistik Nomor 4 Tahun 2015. https://jdihn.go.id/files/508/P0820154.pdf
+
+66 Statistik Transportasi Sumatera Utara 2024
