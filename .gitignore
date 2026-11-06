@@ -28,4 +28,4 @@ chroma_db/
 Thumbs.db
 
 # Dataset mentah (berisi data pribadi pengulas) — hanya versi bersih yang di-commit
-   data/raw/
+data/raw/
