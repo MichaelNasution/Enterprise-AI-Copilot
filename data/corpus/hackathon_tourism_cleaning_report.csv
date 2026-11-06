@@ -1,0 +1,15 @@
+sheet,status,alasan,baris_data_terisi,record_ditulis,baris_kosong_dilewati,duplikat_dilewati,ulasan_tanpa_teks_dilewati,ulasan_terlalu_pendek_dilewati,redaksi_pii_review,terisi_lat_lon,terisi_rating,terisi_harga,terisi_status,terisi_kabupaten
+hotel-resto-v1,dikecualikan,snapshot campuran/versi lama; tumpang tindih dengan metadata dan ulasan,9,0,0,0,0,0,0,0,0,0,0,0
+resto-hotel-v2,diproses_anonim,nama/ID/tipe reviewer tidak disimpan; record ditandai sebagai opini,9611,4671,0,64,3700,1176,1,0,0,0,0,0
+tempat-wisata-v1,dikecualikan,snapshot campuran/versi lama; tumpang tindih dengan metadata dan ulasan,96,0,0,0,0,0,0,0,0,0,0,0
+wisata-v2,diproses_anonim,nama/ID/tipe reviewer tidak disimpan; record ditandai sebagai opini,12691,4311,0,22,6322,2036,2,0,0,0,0,0
+wisata-metadata,diproses,,139,138,0,1,0,0,0,138,115,136,138,113
+hotel-metadata,diproses,,36,36,0,0,0,0,0,36,35,28,36,35
+resto-metadata,diproses,,148,148,0,0,0,0,0,148,147,125,148,144
+transportasi,diproses,,16,16,0,0,0,0,0,0,0,0,0,0
+kuliner,diproses,,12,12,0,0,0,0,0,0,0,0,0,0
+Attractions Info,diproses,,14,14,0,0,0,0,0,0,0,0,0,0
+Artikel Danau Toba,dikecualikan,salinan artikel dari situs pihak ketiga (hak cipta); satu tautan tidak sesuai judul,6,0,0,0,0,0,0,0,0,0,0,0
+Info Seputar Danau Toba (TOP 3),dikecualikan,tabel ringkasan multi-header dengan ulasan berulang; struktur sumber ambigu,26,0,0,0,0,0,0,0,0,0,0,0
+waktu operasional destinasi,diproses,,40,40,0,0,0,0,0,0,0,0,0,1
+prompt,dikecualikan,"contoh kueri/prompt, bukan fakta korpus",5,0,0,0,0,0,0,0,0,0,0,0
