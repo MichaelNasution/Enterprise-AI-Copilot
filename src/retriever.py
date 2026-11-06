@@ -86,15 +86,12 @@ class TobaKnowledgeRetriever:
             where_filter=where_filter
         )
 
-        query_kwargs = {
-            "query_embeddings": [query_embedding],
-            "n_results": top_k,
-            "include": ["documents", "metadatas", "distances"]
-        }
-        if effective_where:
-            query_kwargs["where"] = effective_where
-
-        results = self.collection.query(**query_kwargs)
+        results = self.collection.query(
+            query_embeddings=[query_embedding],
+            n_results=top_k,
+            where=effective_where,
+            include=["documents", "metadatas", "distances"]
+        )
 
         docs = results.get("documents")
         metas = results.get("metadatas")
@@ -265,8 +262,8 @@ if __name__ == "__main__":
         print(hasil_1)
 
     # Skenario 2: Kueri luar domain (terblokir guardrail)
-    print("\n[Kueri 2 - Out-of-Domain]: 'Bagaimana cara merakit komputer gaming?'")
-    hasil_2 = query_knowledge_base("Bagaimana cara merakit komputer gaming?")
+    print("\n[Kueri 2 - Out-of-Domain]: 'Rumus fisika gaya gravitasi newton'")
+    hasil_2 = query_knowledge_base("Rumus fisika gaya gravitasi newton", threshold=0.25)
     print(f"Respons Guardrail: {hasil_2}")
 
     # Skenario 3: Menggunakan filter metadata

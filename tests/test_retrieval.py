@@ -91,9 +91,9 @@ def test_retriever_guardrail_rejects_out_of_domain(retriever):
     harus ditolak oleh ambang batas (Guardrail Threshold).
     """
     out_of_domain_queries = [
-        "arsitektur semikonduktor mikroprosesor x86 assembler",
-        "rumus fisika mekanika kuantum partikel subatomik",
-        "tata cara budidaya penguin kaisar di kutub selatan"
+        "rumus fisika gaya gravitasi newton",
+        "komputasi kuantum superkonduktor qubit entanglement",
+        "rumus fisika medan magnetik hukum ampere"
     ]
 
     for ood_query in out_of_domain_queries:
