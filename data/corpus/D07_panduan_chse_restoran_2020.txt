@@ -1,0 +1,495 @@
+# D07 | Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan
+
+DALAM RANGKA MELAKSANAKAN
+PROTOKOL KESEHATAN BAGI
+MASYARAKAT PRODUKTIF UNTUK
+PENCEGAHAN DAN PENGENDALIAN
+CORONA VIRUS DISEASE 2019
+(COVID-19).
+Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan Edisi Juli 2020
+
+Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan
+KEMENTERIAN PARIWISATA DAN EKONOMI KREATIF/
+BADAN PARIWISATA DAN EKONOMI KREATIF
+DALAM RANGKA MELAKSANAKAN PROTOKOL
+KESEHATAN BAGI MASYARAKAT PRODUKTIF
+UNTUK PENCEGAHAN DAN PENGENDALIAN
+CORONA VIRUS DISEASE 2019 (COVID-19).
+
+Panduan Pelaksanaan Cleanliness, Health, Safety and Environmental Sustainability (CHSE) atau yang selanjutnya disebut Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan merupakan panduan operasional dari Keputusan Menteri Kesehatan Nomor HK.01.07/Menkes/382/2020 tentang Protokol Kesehatan bagi Masyarakat di Tempat dan Fasilitas Umum dalam Rangka Pencegahan dan Pengendalian Corona Virus Disease 2019 (Covid-19).
+Panduan ini ditujukan bagi pengusaha dan/atau pengelola serta karyawan dalam memenuhi kebutuhan tamu akan produk dan pelayanan pariwisata yang bersih, sehat, aman, dan ramah lingkungan pada masa pandemi Covid-19 ini. Panduan ini juga dapat menjadi acuan bagi Pemerintah Provinsi, Pemerintah Kabupaten/Kota, serta asosiasi usaha dan profesi terkait restoran/ rumah makan untuk melakukan sosialisasi, tutorial/edukasi, simulasi, uji coba, pendampingan, pembinaan, pemantauan dan evaluasi dalam penerapan kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan, demi meningkatkan keyakinan para pihak, reputasi usaha dan destinasi pariwisata.
+Ketentuan yang termuat dalam panduan ini mengacu pada protokol dan panduan yang telah ditetapkan Pemerintah Indonesia, World Health Organization (WHO), dan World Travel & Tourism Council (WTTC) dalam rangka pencegahan dan penanganan Covid-19. Penyusunan panduan melibatkan berbagai pihak, yaitu asosiasi usaha restoran/rumah makan, asosiasi profesi terkait bidang restoran/rumah makan, dan akademisi.
+Kami mengucapkan terima kasih kepada seluruh pihak yang telah memberikan kontribusi sehingga Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan ini dapat selesai disusun. Kami mengharapkan panduan ini dapat berkontribusi dalam membangkitkan kembali industri pariwisata Indonesia yang lebih berkualitas.
+KATA PENGANTAR
+Juli, 2020
+MENTERI PARIWISATA DAN EKONOMI KREATIF/
+KEPALA BADAN PARIWISATA DAN EKONOMI KREATIF
+REPUBLIK INDONESIA
+WISHNUTAMA KUSUBANDIO
+
+Dokumen ini merupakan kebijakan Kementerian Pariwisata dan Ekonomi Kreatif sebagai panduan bagi para pengusaha dan/atau pengelola serta karyawan restoran/rumah makan dalam adaptasi kebiasaan baru.
+Dokumen ini memuat panduan yang tunduk kepada ketentuan peraturan perundang-undangan yang dari waktu ke waktu dilakukan sinergi dan evaluasi kebijakan dengan Kementerian/Lembaga yang berwenang menetapkan adaptasi kebiasaan baru di Indonesia.
+
+Daftar Isi
+KATA PENGANTAR
+DAFTAR ISI
+TENTANG PANDUAN
+PANDUAN UMUM
+PANDUAN KHUSUS
+Area Pintu Masuk • Pelayanan Makan dan Minum • Pembayaran dan Pintu Keluar • Layanan Antar Makanan dan Minuman • Dapur • Ruang Administrasi • Ruang Karyawan •
+DAFTAR PUSTAKA
+PENGERTIAN UMUM
+PERTANYAAN YANG SERING DIAJUKAN
+UCAPAN TERIMA KASIH
+
+Tentang
+Panduan 1 EdisiJuli 2020
+
+• Peningkatan kesadaran masyarakat Indonesia dan dunia terhadap kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan, sangat besar akibat pandemi Covid-19.
+• Pola permintaan dan perilaku wisatawan ke depan akan sangat dipengaruhi kesadaran terhadap kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan yang tinggi.
+• Dunia pariwisata harus bersiap diri untuk dapat memberikan jaminan kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan yang tinggi akan produk dan pelayanan yang diberikan kepada wisatawan.
+• Perlu panduan praktis bagi industri pariwisata dalam menyiapkan produk dan pelayanan yang bersih, sehat, aman, dan ramah lingkungan khususnya restoran/ rumah Makan.
+Mengapa perlu panduan?
+2 EdisiJuli 2020
+
+1. PANDUAN UMUM
+2. PANDUAN KHUSUS SESUAI ALUR
+PELAYANAN RESTORAN/
+RUMAH MAKAN, mencakup:
+Untuk Siapa?
+Pokok Materi Pengusaha dan/atau pengelola restoran/rumah makan Karyawan restoran/ rumah makan Tamu restoran/ rumah makan Pemerintah Provinsi Pemerintah Kabupaten/Kota Asosiasi usaha dan profesi terkait restoran/rumah makan Panduan bagi tamu Panduan bagi karyawan Panduan bagi pengusaha dan/atau pengelola serta fasilitas yang harus disediakan
+
+PANDUAN
+UMUM
+4 EdisiJuli 2020
+
+Manajemen/Tata Kelola 5 EdisiJuli 2020 Memperhatikan informasi terkini serta imbauan dan instruksi Pemerintah Pusat dan Pemerintah Daerah terkait Covid-19 di wilayahnya.
+Memiliki dan mengomunikasikan Standar Operasional Prosedur (SOP) untuk kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan karyawan, tamu, dan pihak lain yang beraktivitas di restoran/rumah makan.
+Melatih karyawan untuk mempersiapkan dan melaksanakan SOP kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan di restoran/rumah makan.
+• tidak berjabatan tangan;
+• hindari menyentuh bagian wajah, terutama mata, hidung, dan mulut;
+• menjaga jarak aman minimal 1 (satu) meter;
+• mencuci tangan dengan sabun/menggunakan hand sanitizer;
+• memakai masker;
+• menerapkan etika bersin dan batuk;
+• selalu mengonsumsi makanan sehat dan vitamin.
+4Menyediakan dan memasang imbauan tertulis untuk:
+Menyediakan peralatan dan perlengkapan kebersihan dan kesehatan, seperti sarana Cuci Tangan Pakai Sabun (CTPS), masker, sarung tangan, peralatan pengukur suhu tubuh, kotak obat, penanda posisi berdiri dan duduk untuk menjaga jarak aman 1 (satu) meter, serta tempat sampah tertutup.
+
+6 EdisiJuli 2020 Melakukan pemeriksaan suhu tubuh di pintu masuk. Jika ditemukan karyawan atau tamu dengan suhu ≥ 37,3ºC (2 kali pemeriksaan dengan jarak 5 menit) dan/atau memiliki gejala demam, batuk, pilek, nyeri tenggorokan, dan/atau sesak napas tidak diperkenankan masuk.
+Menyediakan peralatan dan perlengkapan keselamatan dan keamanan, sedikitnya:
+• kotak P3K yang dilengkapi perlengkapan penanganan kecelakaan sederhana;
+• alat pemadam kebakaran yang berfungsi dengan baik, disertai penjelasan tentang cara penggunaannya;
+• informasi tertulis mengenai prosedur penyelamatan diri dari bencana alam dan kebakaran;
+• peta lokasi titik kumpul dan jalur evakuasi;
+• informasi tertulis mengenai nomor telepon penting:
+pemadam kebakaran, kantor polisi terdekat, fasilitas pelayanan kesehatan terdekat, kantor kelurahan/desa;
+• alat komunikasi yang berfungsi dengan baik.
+Makanan dan minuman disajikan secara a la carte atau family style. Tidak menerapkan sistem prasmanan/buffet. Apabila menerapkan sistem prasmanan/buffet agar:
+• menempatkan petugas pelayanan pada stall yang disediakan dengan menggunakan masker serta sarung tangan;
+• tamu dalam mengambil makanan dilayani oleh petugas dan tetap menjaga jarak minimal 1 (satu) meter atau melakukan rekayasa teknis seperti pemasangan partisi antara tamu dan petugas, serta untuk menghindari percikan ke makanan;
+• semua peralatan makan wajib dibersihkan dan didisinfeksi secara aman dan sesuai sebelum digunakan kembali;
+• mengganti, mencuci, dan saniter peralatan sesering mungkin;
+• karyawan yang bertugas mencuci tangan dengan sabun dan air mengalir;
+• karyawan mengganti sarung tangan sesering mungkin khususnya setelah menyentuh benda lain selain peralatan makan/minum.
+Diimbau untuk menyediakan peralatan makan sekali pakai yang ramah lingkungan.
+
+7 EdisiJuli 2020 Memastikan tidak ada kerumunan pada setiap aktivitas yang berlangsung di dalam dan sekitar restoran/rumah makan.
+Menerapkan physical distancing/jaga jarak dengan berbagai cara seperti:
+• Mengatur jarak minimal 1 (satu) meter pada saat antre masuk restoran/rumah makan dan sejenisnya, memesan, dan membayar di kasir, dengan memberikan tanda khusus di lantai. Bila memungkinkan ada pembatas pengunjung dengan kasir berupa dinding plastik atau kaca.
+• Pengaturan jarak antarkursi minimal 1 (satu) meter atau melakukan rekayasa teknis seperti pemasangan partisi antartamu di atas meja makan.
+Meningkatkan pelayanan pemesanan makanan dan minuman secara daring, layanan antar makanan dan minuman, drive thru, dan lain sebagainya.
+Menjaga kualitas udara di tempat usaha atau di tempat kerja dengan mengoptimalkan sirkulasi udara dan sinar matahari masuk, pembersihan ﬁlter AC secara berkala.
+Memastikan seluruh lingkungan restoran/rumah makan dalam kondisi bersih dan saniter dengan melakukan pembersihan dan disinfeksi secara berkala minimal 2 (dua) kali sehari (saat sebelum buka dan tutup) menggunakan disinfektan/cairan pembersih lain yang aman dan sesuai.
+
+8 EdisiJuli 2020 Meningkatkan frekuensi pembersihan dan disinfeksi dengan cara yang aman dan sesuai minimal 3 (tiga) kali sehari, terutama pada permukaan perlengkapan dan peralatan yang sering disentuh/dilewati orang seperti meja dan kursi di ruang makan, pegangan pintu, stopkontak & sakelar, keran air, tuas ﬂush toilet, toilet, meja kasir, mesin penghitung uang/kasir, lantai ruang makan, dan lain lain.
+Menyediakan pelayanan reservasi melalui telepon, media sosial, dan/atau media daring lainnya.
+Bila menyelenggarakan pertunjukan seni, harus mengikuti protokol kesehatan, Panduan Khusus Subsektor Musik dan Seni Pertunjukan, serta SOP Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan yang berlaku di restoran/rumah makan.
+Berkoordinasi intensif dengan Dinas Kesehatan, Badan Penanggulangan Bencana Daerah, Dinas Pemadam Kebakaran, dan kepolisian setempat untuk penanganan kondisi darurat.
+Memastikan seoptimal mungkin penggunaan perlengkapan dan bahan yang ramah lingkungan sehingga dapat dilakukan recycle, reduce, reuse, dan replace.
+
+Pemantauan serta evaluasi penerapan panduan dan SOP pelaksanaan kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan di restoran/rumah makan.
+Memastikan pemanfaatan air dan sumber energi, seperti listrik dan/atau gas, secara eﬁsien dan sehat dalam rangka menjaga keseimbangan dan keberlanjutan ekosistem.
+Memastikan pengolahan sampah dan limbah cair restoran/rumah Makan dilakukan secara tuntas, sehat, dan ramah lingkungan sehingga dapat tetap menjaga lingkungan serta tidak menyebabkan sumber penyebaran baru Covid-19.
+Memastikan kondisi asri dan dan nyaman pada lingkungan ﬁsik sekitar bangunan/ruangan secara alamiah dan/atau menggunakan rekayasa teknis.
+9 EdisiJuli 2020
+
+Karyawan, tamu, dan pihak lain yang beraktivitas di restoran/rumah makan.
+Memberikan salam dengan cara mengatupkan kedua telapak tangan di dada sebagai pengganti berjabatan tangan.
+Memastikan diri dalam kondisi sehat, dengan suhu tubuh < 37,3ºC, tidak memiliki gejala demam, batuk, pilek, nyeri tenggorokan, dan/atau sesak napas sebelum beraktivitas di restoran/rumah makan.
+Melaksanakan perilaku hidup bersih dan sehat:
+• memakai alat pelindung diri sesuai keperluan, yaitu masker dan sarung tangan untuk karyawan, dan masker untuk tamu;
+• menerapkan etika bersin dan batuk;
+• selalu mengonsumsi makanan sehat dan vitamin.
+• tidak melakukan kontak ﬁsik;
+• tidak menyentuh bagian wajah, terutama mata, hidung, dan mulut;
+• tetap menjaga jarak aman minimal 1 (satu) meter;
+• mencuci tangan dengan sabun/menggunakan hand sanitizer;
+Karyawan menginformasikan kepada pimpinan jika mengalami gangguan kesehatan (demam, batuk, pilek, nyeri tenggorokan, dan/atau sesak napas).
+
+Tamu menginformasikan kepada karyawan restoran/rumah makan jika mengalami gangguan kesehatan (demam, batuk, pilek, nyeri tenggorokan, dan/atau sesak napas).
+Karyawan mengarahkan dan membantu tamu dan pihak lain yang berada di restoran/rumah makan jika terjadi kondisi darurat.
+Patuhi dan laksanakan SOP yang berlaku di restoran/rumah makan.
+Tamu disarankan untuk reservasi terlebih dahulu melalui telepon, media sosial, dan/atau media daring lainnya.
+
+PANDUAN
+KHUSUS
+12 EdisiJuli 2020
+
+PELAYANAN
+MAKAN DAN
+MINUM
+AREA
+PINTU MASUK
+PEMBAYARAN DAN
+PINTU KELUAR
+DAPUR
+RUANG
+KARYAWAN
+RUANG
+ADMINISTRASI
+LAYANAN ANTAR
+MAKANAN DAN
+MINUMAN
+ALUR PELAYANAN
+RESTORAN/RUMAH MAKAN
+13 EdisiJuli 2020
+
+PENGUSAHA DAN/ATAU PENGELOLA, FASILITAS
+AREA PINTU MASUK
+Sediakan aturan pengelolaan arus lalu lintas dan kerumunan di area parkir.
+Sediakan area dan peralatan pemeriksaan suhu tubuh dan kondisi kesehatan tamu dan karyawan.
+Bila diperlukan, sediakan area khusus/ ruang tunggu bagi pengemudi dilengkapi fasilitas cuci tangan/hand sanitizer dan tisu, dengan memperhatikan jarak aman minimal 1 (satu) meter.
+Barang publik di area pintu masuk dibersihkan dengan disinfektan/cairan pembersih lain yang aman dan sesuai minimal 3 (tiga) kali sehari.
+Sediakan SOP untuk mengarahkan dan membantu tamu atau karyawan dengan suhu tubuh ≥ 37,3°C untuk melakukan pemeriksaan ke fasilitas pelayanan kesehatan.
+Ruang Tunggu Pengemudi
+
+Sediakan area dan peralatan untuk membersihkan barang tamu dan karyawan dengan cara yang aman, menggunakan disinfektan/cairan pembersih lain yang aman dan sesuai.
+Pasang peta lokasi titik kumpul dan jalur evakuasi.
+Antrean untuk masuk ke area pelayanan makan dan minum diatur dengan jarak aman minimal 1 (satu) meter, diberi tanda khusus di lantai, atau melakukan rekayasa teknis seperti pemasangan partisi dan/atau pengaturan alur masuk tamu.
+Pasang penanda titik kumpul.
+Barang publik yang harus selalu dibersihkan Permukaan pegangan tangga, pegangan pintu, mesin ATM, meja pemeriksaan, alat pengukur suhu tubuh, metal detector, kaca etalase, stopkontak & sakelar.
+1 meter
+AREA PINTU MASUK
+
+AREA PINTU MASUK
+TAMU
+Tamu memarkirkan kendaraannya sesuai dengan petunjuk dan aturan yang ada.
+Barang milik tamu dibersihkan dengan cara yang aman, menggunakan disinfektan/ cairan pembersih lain yang aman dan sesuai, sebelum masuk ke area pelayanan makan dan minum.
+Tamu wajib mencuci tangan dengan sabun/menggunakan hand sanitizer sebelum memasuki area pelayanan makan dan minum.
+Dalam antrean di pintu masuk, tamu menjaga jarak dengan orang lain minimal 1 (satu) meter.
+1 meter 16 EdisiJuli 2020
+
+1 meter
+AREA PINTU MASUK
+KARYAWAN
+Karyawan harus dalam kondisi sehat ketika akan berangkat kerja.
+Mengatur arus lalu lintas dan memastikan tidak ada kerumunan di area parkir, sesuai prosedur yang ada.
+Memarkirkan kendaraan sesuai dengan petunjuk dan aturan yang ada.
+Dalam antrean di pintu masuk, karyawan menjaga jarak dengan orang lain minimal 1 (satu) meter.
+Karyawan mengingatkan tamu jika tidak mematuhi protokol kesehatan.
+Bersihkan barang milik karyawan dengan cara yang aman, menggunakan disinfektan/cairan pembersih lain yang aman dan sesuai, sebelum dibawa masuk.
+17 EdisiJuli 2020
+
+PENGUSAHA DAN/ATAU PENGELOLA, FASILITAS
+PELAYANAN
+MAKAN DAN MINUM
+Daftar menu makanan dan minuman disiapkan secara daring. Menu tertulis dapat disiapkan dengan bahan yang mudah dibersihkan atau hanya digunakan satu kali.
+Tempat duduk dan jarak antartamu diatur minimal 1 (satu) meter atau melakukan rekayasa teknis seperti pemasangan partisi antartamu di atas meja makan.
+Sediakan sarana Cuci Tangan Pakai Sabun (CTPS)/hand sanitizer di area pelayanan makan dan minum.
+1 meter 18 EdisiJuli 2020
+
+Restoran/rumah makan bebas dari vektor dan binatang pembawa penyakit.
+Tempat sampah dalam keadaan tertutup.
+Area dan barang publik dibersihkan dengan disinfektan/cairan pembersih lain yang aman dan sesuai secara berkala minimal 3 (tiga) kali sehari.
+Toilet dalam keadaan higienis, bersih, kering, tidak bau, dan berfungsi dengan baik, serta dibersihkan sesering mungkin setelah digunakan.
+Pasang peta lokasi titik kumpul dan jalur evakuasi.
+Lantai, meja dan kursi makan, peralatan makan, kemasan, pegangan pintu, dan toilet Barang publik yang harus selalu dibersihkan
+PELAYANAN MAKAN DAN MINUM
+
+TAMU
+Duduk pada kursi yang telah diatur oleh pihak restoran/rumah makan atau atur jarak duduk dari orang lain.
+Tidak berbagi makanan dan minuman dengan orang lain.
+Tamu yang menggunakan toilet di area pelayanan makan dan minum menjaga agar tetap higienis, bersih, kering, dan tidak bau setelah digunakan.
+Tamu membuang sampah bekas makanan dan tisu di tempat sampah serta menjaga tempat sampah tetap tertutup.
+Tidak menggunakan alat makan bersama-sama.
+Pada saat akan menikmati makanan dan minuman, tamu melepaskan masker dan menyimpan masker secara pribadi dengan baik dan aman, dan tidak meletakkan masker di atas meja makan.
+1 meter
+PELAYANAN MAKAN DAN MINUM
+
+KARYAWAN
+Menyarankan tamu untuk melakukan pembayaran secara nontunai.
+Karyawan menggunakan masker, sarung tangan, atau penjepit makanan pada saat penyajian untuk mengurangi kontak dengan makanan/minuman.
+Membawa makanan dan minuman dari dapur /tempat penyiapan makanan/ minuman ke area pelayanan makan/ minum dengan menggunakan penutup yang aman.
+Menutup alat makan yang diletakkan di meja makan (sendok, garpu, pisau dibungkus misalnya dengan tisu).
+PELAYANAN MAKAN DAN MINUM
+
+Ketika membersihkan meja bekas makan tamu, gunakan disinfektan/ cairan pembersih lain yang aman dan sesuai.
+1 meter Melakukan pelayanan dan penyajian makanan dengan tetap menjaga jarak dengan tamu minimal 1 (satu) meter.
+Karyawan membersihkan toilet di area pelayanan makan dan minum sesering mungkin setelah digunakan tamu agar tetap higienis, bersih, kering, dan tidak bau.
+Karyawan mengingatkan tamu jika tidak mematuhi protokol kesehatan.
+PELAYANAN MAKAN DAN MINUM
+
+PENGUSAHA DAN/ATAU PENGELOLA, FASILITAS
+PEMBAYARAN DAN
+PINTU KELUAR
+Pengaturan jalur keluar dan masuk tamu restoran/rumah makan diarahkan agar tidak berpapasan dengan tetap menjaga jarak aman atau melakukan rekayasa teknis seperti pemasangan partisi pemisah jalur keluar/masuk.
+Sediakan alat pembayaran nontunai untuk mengurangi penyebaran Covid-19 melalui uang.
+Barang publik di area pembayaran dan pintu keluar dibersihkan dengan disinfektan/cairan pembersih lain yang aman dan sesuai minimal 3 (tiga) kali sehari.
+Masuk Keluar
+
+Semua alat yang digunakan dalam proses pembayaran (mesin pembayaran, pulpen, bill/nota) harus segera dibersihkan dengan disinfektan/cairan pembersih lain yang aman dan sesuai setelah digunakan.
+Sediakan pelindung/partisi untuk membatasi kontak antara petugas kasir dengan tamu yang akan membayar.
+Lengkapi meja kasir dengan hand sanitizer dan tisu.
+Sediakan sarana Cuci Tangan Pakai Sabun (CTPS)/hand sanitizer di dekat meja kasir.
+PEMBAYARAN DAN PINTU KELUAR
+
+Sediakan pengaturan antrean pembayaran di kasir dengan menjaga jarak aman minimal 1 (satu) meter, diberi tanda khusus di lantai. Bila memungkinkan ada pembatas tamu dengan kasir berupa dinding plastik atau kaca.
+Pasang peta lokasi titik kumpul dan jalur evakuasi.
+Pasang penanda titik kumpul.
+1 meter Lantai, alat pembayaran elektronik, mesin kasir, pegangan pintu, toilet.
+Barang publik yang harus selalu dibersihkan
+PEMBAYARAN DAN PINTU KELUAR
+
+PEMBAYARAN DAN PINTU KELUAR
+Tamu disarankan membayar secara nontunai.
+Karyawan membersihkan semua alat yang digunakan dalam proses pembayaran dengan menggunakan disinfektan/cairan pembersih lain yang aman dan sesuai segera setelah transaksi dilakukan.
+Tamu mengikuti pengaturan antrean pembayaran sesuai tanda khusus di lantai atau mengatur jarak dengan tamu lain minimal 1 (satu) meter.
+1 meter
+TAMU
+
+PEMBAYARAN DAN PINTU KELUAR
+KARYAWAN
+Karyawan menyarankan tamu untuk membayar secara nontunai.
+Karyawan membersihkan semua alat yang digunakan dalam proses pembayaran dengan disinfektan/cairan pembersih lain yang aman dan sesuai, segera setelah transaksi dilakukan.
+Karyawan mengingatkan tamu jika tidak mematuhi protokol kesehatan.
+Karyawan membersihkan tangan dengan hand sanitizer sebelum dan setelah proses pembayaran.
+Karyawan melakukan pengaturan arus lalu lintas keluar dan kerumunan di area parkir sesuai prosedur yang ada.
+Karyawan mengucapkan terima kasih kepada tamu dengan cara mengatupkan kedua telapak tangan di dada.
+27 EdisiJuli 2020
+
+PENGUSAHA DAN/ATAU PENGELOLA, FASILITAS
+LAYANAN ANTAR
+MAKANAN DAN
+MINUMAN
+Disarankan untuk menyiapkan sistem pembayaran nontunai.
+Sediakan area dan peralatan pemeriksaan suhu tubuh dan kondisi kesehatan pengantar makanan/minuman.
+Sediakan pelindung/partisi untuk membatasi kontak antara petugas penerima pesanan dengan pengantar makanan/minuman.
+Restoran/rumah makan yang menjalankan/ memiliki sistem pemesanan makanan/minuman secara daring, dikirim, drive thru, dan dibawa pulang harus selalu membungkus makanan dengan aman dan tertutup rapat.
+Sediakan area khusus untuk pemesanan melalui layanan antar makanan dan minuman.
+
+Sediakan ruang tunggu bagi pengantar makanan/minuman dengan melakukan pengaturan posisi duduk menggunakan tanda khusus atau melakukan rekayasa teknis lain untuk menghindari kontak fisik.
+Lengkapi area khusus pemesanan dengan hand sanitizer dan tisu.
+Sediakan label yang berisi informasi
+tentang suhu tubuh petugas penjamah
+dan pengantar makanan/minuman untuk disampaikan kepada pelanggan.
+Sediakan kotak pengiriman khusus yang bisa menjaga makanan/minuman agar tetap panas/dingin dan bebas kontaminasi atau sertakan informasi mengenai lama waktu simpan pada lemari pendingin dan suhu ruang di kemasan makanan/minuman.
+Sediakan sarana Cuci Tangan Pakai Sabun (CTPS)/hand sanitizer di area khusus pemesanan dan ruang tunggu pengantar makanan/minuman.
+Sediakan pengaturan antrean pemesanan dan pengambilan makanan/minuman dengan menjaga jarak antarindividu minimal 1 (satu) meter, diberi tanda khusus di lantai, atau melakukan rekayasa teknis lain untuk menghindari kontak fisik.
+Lantai, pegangan pintu, area pemesanan, meja, kursi.
+Barang publik yang harus selalu dibersihkan 1 meter ºC ºC ºC ºC
+LAYANAN ANTAR MAKANAN DAN MINUMAN
+
+LAYANAN ANTAR MAKANAN DAN MINUMAN
+KARYAWAN
+Karyawan melakukan pemeriksaan suhu tubuh sebelum melakukan proses penyiapan dan pengolahan makanan/ minuman, dan catat pada label yang sudah disediakan.
+Selalu menjaga jarak dengan pengantar makanan minimal 1 (satu) meter atau melakukan cara lain untuk menghindari kontak fisik.
+Karyawan menyarankan kepada pengantar makanan/minuman dan pelanggan untuk melakukan pembayaran secara daring.
+Karyawan mencuci tangan dengan sabun/menggunakan hand sanitizer sebelum dan setelah menerima pesanan serta sebelum dan sesudah menyerahkan pesanan.
+Memastikan makanan dan minuman yang dipesan dikemas dengan baik untuk menghindari kontaminasi, termasuk peralatan makan jika diperlukan.
+Karyawan mengingatkan pengantar makanan/ minuman jika tidak mematuhi protokol kesehatan.
+1 meter 30 EdisiJuli 2020
+
+1 meter 5 6
+LAYANAN ANTAR MAKANAN DAN MINUMAN
+PENGANTAR MAKANAN
+Pengantar makanan/minuman melakukan pemeriksaan suhu tubuh ketika menerima makanan/minuman dan catat pada label yang sudah disediakan.
+Selalu menjaga jarak dengan karyawan dan pengantar lainnya minimal 1 (satu) meter.
+Pengantar makanan mencuci tangan dengan sabun/ menggunakan hand sanitizer sebelum menerima pesanan dari karyawan restoran/rumah makan.
+Pengantar makanan duduk pada kursi yang telah diatur oleh pihak restoran/rumah makan atau atur jarak duduk dari orang lain.
+Pelanggan saat menerima paket kiriman makanan dan minuman mematuhi protokol kesehatan:
+• menggunakan masker,
+• menjaga jarak minimal 1 (satu) meter dengan pengantar makanan.
+Setelah menerima paket kiriman makanan/minuman, pelanggan:
+• membersihkan paket kiriman dengan disinfektan/cairan pembersih lainnya yang aman dan sesuai;
+• mencuci tangan pakai sabun/ menggunakan hand sanitizer.
+Ruang Tunggu Pengantar Makanan 1 meter 3 4 31 EdisiJuli 2020
+
+PENGUSAHA DAN/ATAU PENGELOLA, FASILITAS
+DAPUR
+Perhatikan standar hygiene dan sanitasi ketika menyimpan bahan makanan, sesuaikan suhu penyimpanan dengan karakteristik bahan pangan.
+Perhatikan standar kebersihan dan keamanan ketika menerima bahan makanan dan minuman dari pihak pemasok, batasi jumlah orang yang menerima, minimalkan kontak fisik, serta selalu menjaga kebersihan fasilitas dan area penerimaannya.
+Membawa makanan dan minuman dari dapur/tempat penyiapan makan/minum ke area pelayanan makan dan minum dengan menggunakan penutup yang aman.
+Pastikan pembelian, penanganan, pengolahan, persiapan, hingga penyajian makanan/ minuman dilakukan sesuai standar hygiene dan sanitasi pangan serta aturan protokol kesehatan.
+
+Peralatan dan perlengkapan memasak dibersihkan dan disimpan sesuai dengan standar hygiene dan sanitasi.
+Sediakan sarana Cuci Tangan Pakai Sabun (CTPS)/hand sanitizer.
+Area kerja dibersihkan dengan disinfektan/cairan pembersih lain yang aman dan sesuai sebelum digunakan, pada saat kondisi dapur kotor, dan pada saat operasional selesai.
+Ruang dapur memiliki sirkulasi udara yang baik.
+Ruang dapur bebas dari vektor dan binatang pembawa penyakit (pest control). 5
+DAPUR
+
+Tempat sampah dalam keadaan tertutup, dan sampah di dalamnya dibuang segera begitu penuh.
+Pastikan prosedur untuk mencicipi makanan dilaksanakan sesuai standar hygiene dan sanitasi yang berlaku, hindari penggunaan peralatan yang telah dipakai untuk mencicipi makanan.
+Batasi jumlah karyawan penjamah pangan atau lakukan pengaturan jarak aman minimal 1 (satu) meter dengan tanda khusus atau melakukan rekayasa teknis untuk menghindari kontak fisik antarkaryawan.
+Minimalkan penggunaan peralatan dan perlengkapan secara bersamaan dan laksanakan prosedur sanitasi apabila akan digunakan oleh penjamah pangan yang berbeda.
+DAPUR
+
+Lantai, dapur, tempat penyimpanan bahan baku, meja penyajian, peralatan memasak, peralatan makan, pegangan pintu, stopkontak & sakelar, keran air.
+Barang publik yang harus selalu dibersihkan Letakkan alat pemadam kebakaran pada lokasi yang mudah dijangkau, lengkapi dengan petunjuk cara menggunakannya.
+Pasang peta lokasi titik kumpul dan jalur evakuasi.
+DAPUR
+
+Karyawan penjamah pangan harus dalam keadaan sehat pada saat melaksanakan pekerjaan di dapur.
+Membatasi kontak secara langsung pada makanan yang sudah matang/ siap disajikan dengan menggunakan sarung tangan atau penjepit makanan.
+Karyawan penjamah pangan tidak menggunakan perhiasan seperti cincin, gelang, dan jam tangan.
+Mencuci tangan dengan air mengalir dan sabun:
+• sebelum dan sesudah memasak;
+• setelah melakukan tindakan pembersihan misalnya membersihkan area kerja, menangani sampah, selesai dari toilet, dan lain-lain.
+Mewajibkan semua penjamah pangan atau karyawan yang kontak langsung dengan pangan agar mengenakan masker, sarung tangan, atau penjepit pada saat menyentuh pangan siap saji dan mengenakan penutup kepala dan celemek pada saat persiapan, pengolahan, dan penyajian pangan. Penggunaan sarung tangan sesuai dengan standar keamanan pangan yang berlaku.
+Posisi bekerja di area dapur memperhatikan penanda yang telah ditetapkan untuk jarak aman.
+DAPUR
+KARYAWAN
+36 EdisiJuli 2020
+
+PENGUSAHA DAN/ATAU PENGELOLA, FASILITAS
+RUANG ADMINISTRASI
+Atur jarak aman meja kerja dan tempat duduk di dalam kantor minimal 1 (satu) meter atau melakukan rekayasa teknis seperti pemasangan partisi.
+Barang publik di ruang kerja dibersihkan dengan disinfektan/cairan pembersih lain yang aman dan sesuai minimal 3 (tiga) kali sehari.
+Sediakan sarana Cuci Tangan Pakai Sabun (CTPS)/hand sanitizer dalam jumlah cukup.
+1 meter 37 EdisiJuli 2020
+
+Tempat sampah sebaiknya menggunakan penutup.
+Alat tulis dan alat kerja lainnya disediakan untuk setiap karyawan.
+Letakkan alat pemadam kebakaran pada lokasi yang mudah dijangkau, lengkapi dengan petunjuk cara menggunakannya.
+Pasang peta lokasi titik kumpul dan jalur evakuasi.
+Lantai, pegangan pintu, stopkontak & sakelar, meja kerja, tempat duduk, komputer, printer, scanner, mesin foto kopi, telepon, faksimili, kalkulator, lemari arsip, brankas, remot AC.
+Barang publik yang harus selalu dibersihkan
+RUANG ADMINISTRASI
+
+Gunakan peralatan dan perlengkapan kerja sendiri, tidak menggunakan secara bersama-sama.
+Sarankan pemasok/supplier untuk menerima pembayaran nontunai.
+Gunakan alat tulis masing-masing.
+Mengomunikasikan penanganan darurat kepada pihak terkait, seperti pemadam kebakaran, fasilitas pelayanan kesehatan terdekat, kantor polisi, pos keamanan terdekat, kantor kelurahan/desa.
+RUANG ADMINISTRASI
+KARYAWAN
+39 EdisiJuli 2020
+
+PENGUSAHA DAN/ATAU PENGELOLA, FASILITAS
+Ruang Karyawan 1 meter Atur jarak tempat duduk di ruang karyawan minimal 1 (satu) meter atau melakukan rekayasa teknis seperti pemasangan partisi.
+Sediakan sarana Cuci Tangan Pakai Sabun (CTPS)/hand sanitizer dalam jumlah cukup.
+Atur posisi berdiri di ruang karyawan dengan tanda khusus di lantai atau melakukan rekayasa teknis untuk menghindari kontak fisik.
+1 meter 40 EdisiJuli 2020
+
+Tempat sampah sebaiknya menggunakan penutup.
+Barang publik di ruang karyawan dibersihkan dengan disinfektan/ cairan pembersih lain yang aman dan sesuai minimal 3 (tiga) kali sehari.
+Lantai, pegangan pintu, stopkontak & sakelar, meja, tempat duduk, loker, gantungan baju, remot AC, sarana Cuci Tangan Pakai Sabun (CTPS), cermin, toilet, dan kamar mandi.
+Barang publik yang harus selalu dibersihkan Pasang peta lokasi titik kumpul dan jalur evakuasi.
+RUANG KARYAWAN
+
+KARYAWAN
+Karyawan masuk ke ruang karyawan diatur secara bergantian.
+Jaga jarak dengan karyawan lain selama berada di ruang karyawan, ikuti aturan yang telah ditetapkan.
+Mengganti pakaian yang digunakan dengan pakaian kerja yang bersih di tempat kerja.
+1 meter
+RUANG KARYAWAN
+
+Menghindari penggunaan peralatan pribadi secara bersama seperti peralatan ibadah, makan, dan lain-lain.
+Segera meninggalkan ruangan setelah selesai beraktivitas di ruang karyawan.
+Pastikan kondisi ruang karyawan tetap kering setelah digunakan.
+RUANG KARYAWAN
+
+American Hotel & Lodging Association. (2020, June 3). Enhanced Industry-Wide Hotel Cleaning Standards in Response to Covid-19. Dipetik 5 Juni 2020, dari https://www.ahla.com/safestay.
+Badan Pimpinan Pusat Perhimpunan Hotel dan Restoran Indonesia. (2020). Panduan Umum Normal baru Hotel dan Restoran dalam Pencegahan Covid-19. Jakarta: PHRI.
+Keputusan Menteri Kesehatan Nomor HK.01.07/Menkes/382/2020 tentang Protokol Kesehatan bagi Masyarakat di Tempat dan Fasilitas Umum dalam Rangka Pencegahan dan Pengendalian Corona Virus Disease 2019 (Covid-19).
+Louvre Hotels Group. (2020, June 2). Hotel Operating Procedures Post Covid. Dipetik 5 Juni 2020, dari https://www.louvrehotels.com/sites/default/ﬁles/ 0_operating_procedures_post_ covid_0206.pdf.
+National Restaurant Association (2020, April 22). Covid-19 Reopening Guidance. A Guide for The Restaurant Industry. Dipetik tanggal 27 April 2020, dari https://restaurant.org/downloads/pdfs/business/covid19-reopen-guidance.pdf Peraturan Menteri Kesehatan Nomor 1096/MENKES/PER/VI/2011 tentang Higiene Sanitasi Jasaboga.
+Peraturan Menteri Kesehatan Nomor 1098/MENKES/SK/VII/2003 tentang Persyaratan Hygiene Sanitasi Rumah Makan dan Restoran.
+Peraturan Menteri Kesehatan Nomor 50 Tahun 2017 tentang Standar Baku Mutu Kesehatan Lingkungan dan Persyaratan Kesehatan untuk Vektor dan Binatang Pembawa Penyakit serta Pengendaliannya.
+Peraturan Menteri Pariwisata dan Ekonomi Kreatif Nomor 11 Tahun 2014 tentang Standar Usaha Restoran.
+Peraturan Menteri Pariwisata Nomor 14 Tahun 2016 tentang Pedoman Destinasi Pariwisata Berkelanjutan.
+Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor 15 Tahun 2008 tentang Pertolongan Pertama pada Kecelakaan di Tempat Kerja.
+Singapore National Environment Agency. (2020, March 27). SG Clean Checklist for F&B Establishments. Dipetik 27 April 2020, dari https://www.sgclean.gov.sg/join/for-owners/assessments/.
+U.S. Food and Drug Administration. (2020, April). Best Practices for Retail Food Stores, Restaurants, and Food Pick-Up/Delivery Services During the COVID-19 Pandemic.
+Dipetik 5 Juni 2020, dari https://www.fda.gov/media/136811/download.
+United Nations World Tourism Organization. (2020, May 28). Global Gudelines to Restart Tourism. Dipetik 29 Mei 2020, dari https://www.unwto.org/restarting-tourism.
+World Health Organization. (2020, April 7). COVID-19 and food safety: guidance for food business.
+Dipetik 27 April 2020, dari https://www.who.int/emergencies/diseases/ novel-coronavirus-2019/technical-guidance.
+World Health Organization. (2020, March 31). Operational considerations for COVID-19 management in the accommodation sector. Dipetik 27 April 2020, dari https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance.
+World Travel & Tourism Council. (2020, May 29). Leading Global Protocols for the New Normal:
+Hospitality. Dipetik 12 Juni 2020, dari https://wttc.org/COVID-19/ Safe-Travels-Global-Protocols-Stamp.
+DAFTAR PUSTAKA
+44 EdisiJuli 2020
+
+Pengertian Umum
+A
+F
+D
+H
+L
+A la Carte Suatu jenis daftar makanan (menu) yang dari daftar itu dapat dipilih dan dipesan jenis makanan yang diinginkan.
+Disinfektan Bahan kimia yang digunakan untuk menghambat atau membunuh mikroorganisme (misalnya pada bakteri, virus dan jamur kecuali spora bakteri) pada permukaan benda mati, seperti lantai, perabotan, dan ruangan.
+Drive Thru Jenis layanan pesan bawa pulang yang disediakan restoran/rumah makan, di mana pelanggannya dapat menggunakan suatu layanan atau membeli suatu produk tanpa perlu meninggalkan kendaraannya.
+Family Style Salah satu jenis penyajian makanan yang membuat tamu dapat memilih dan mengambil sendiri makanan yang telah tersedia di meja.
+Hand Sanitizer Produk pembersih tangan berbasis alkohol yang bisa berbentuk gel atau cairan yang digunakan untuk membersihkan tangan agar bersih dari virus dan bakteri dengan kandungan alkohol minimal 60%.
+Higienis Berkenaan dengan atau sesuai dengan ilmu kesehatan; bersih; bebas penyakit.
+Hygiene Suatu upaya atau tindakan untuk menjaga/meningkatkan kebersihan dan kesehatan dengan melakukan pemeliharaan dini terhadap semua individu dan faktor lingkungan yang mempengaruhinya.
+Layanan Antar Makanan dan Minuman Suatu sistem pelayanan restoran/rumah makan ketika konsumen dapat memesan makanan dan minuman melalui daring/online kemudian pesanan konsumen itu akan diantarkan tanpa perlu datang langsung ke restoran/rumah makan tersebut.
+
+R
+M
+T
+P
+S
+Masker Alat pelindung diri yang digunakan untuk melindungi mulut, hidung, dan wajah dari patogen yang ditularkan melalui udara maupun percikan cairan tubuh yang terinfeksi.
+Pembayaran Nontunai Sistem pembayaran daring tanpa menggunakan uang fisik (uang kertas dan logam), seperti menggunakan kartu debit, kartu kredit, dan cara pembayaran daring lainnya.
+Prasmanan (Buffet) Sistem pelayanan yang semua jenis makanan dihidangkan di atas meja besar dan tamu dipersilakan memilih sendiri makanan yang disukainya.
+Protokol Kesehatan Ketentuan yang ditetapkan oleh Kementerian Kesehatan dalam rangka pencegahan dan pengendalian penularan Corona Virus Disease (Covid-19).
+Restoran Jenis pelayanan penyediaan makanan dan minuman yang dilengkapi dengan peralatan dan perlengkapan untuk proses pembuatan, penyimpanan, dan penyajian, di suatu tempat tetap yang tidak berpindah-pindah.
+Rumah Makan Jenis pelayanan penyediaan makanan dan minuman yang dilengkapi dengan peralatan dan perlengkapan untuk proses penyimpanan dan penyajian, di suatu tempat tetap yang tidak berpindah-pindah.
+Sanitasi Usaha untuk membina dan menciptakan suatu keadaan yang baik di bidang kesehatan, terutama kesehatan masyarakat.
+Saniter Hal yang berkaitan dengan usaha perbaikan kesehatan, berkenaan dengan kesehatan.
+Standar Operasional Prosedur (SOP) Serangkaian instruksi tertulis yang dibakukan oleh pengelola restoran/rumah makan mengenai proses penyelenggaraan kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan di restoran/rumah makan, meliputi bagaimana, kapan, di mana, dan oleh siapa dilakukan.
+Titik Kumpul Area di sekitar restoran/rumah makan yang menjadi tempat berkumpul pada saat terjadi keadaan darurat seperti kebakaran atau gempa bumi.
+Vektor Organisme yang dapat menularkan, memindahkan, atau menjadi sumber penularan penyakit pada manusia.
+
+T : Apa yang menjadi dasar hukum penyusunan Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan ini?
+J : Keputusan Menteri Kesehatan Nomor HK.01.07/Menkes/382/2020 tentang Protokol Kesehatan bagi Masyarakat di Tempat dan Fasilitas Umum dalam Rangka Pencegahan dan Pengendalian Corona Virus Disease 2019 (Covid-19).
+T : Siapakah pihak-pihak yang berkepentingan dengan Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan ini?
+J : Pengusaha dan/atau pengelola, karyawan, tamu restoran/rumah makan, Pemerintah Provinsi, Pemerintah Kabupaten/Kota, serta asosiasi usaha dan profesi terkait restoran/rumah makan.
+T : Mengapa pengusaha dan/atau pengelola Restoran/Rumah Makan serta karyawannya harus melaksanakan Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan ini?
+J : Untuk meningkatkan kepercayaan tamu terhadap jaminan produk dan pelayanan restoran/rumah makan yang bersih, sehat, aman, dan ramah lingkungan, mencegah terjadinya penularan Covid-19 di restoran/rumah makan, serta menjaga reputasi dan kredibilitas restoran/rumah makan.
+T : Apakah Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan ini mengatur pembatasan jumlah tamu yang diperbolehkan?
+J : Panduan ini tidak mengatur pembatasan jumlah tamu restoran/rumah makan yang diperbolehkan. Pembatasan jumlah tamu restoran/rumah makan merupakan kebijakan pengusaha dan/atau pengelola restoran/rumah makan masing-masing dengan tetap memperhatikan jarak aman dan rekayasa teknis mengacu pada protokol kesehatan dan ketentuan lain yang ditetapkan oleh Kementerian Kesehatan, Pemerintah Daerah, dan Satuan Tugas Covid-19 Daerah.
+47 EdisiJuli 2020 Pertanyaan yang sering diajukan
+
+T : Apa yang dapat dilakukan oleh asosiasi usaha dan profesi bidang Restoran/Rumah Makanan untuk mendukung penerapan Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan ini?
+J : Melakukan sosialisasi, pelatihan/ edukasi, pendampingan, pembinaan, serta pemantauan dan evaluasi kepada anggotanya.
+T : Apa yang harus disiapkan restoran/ rumah makan untuk melaksanakan panduan ini?
+J : - Standar Operasional Prosedur (SOP) mengacu pada Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan, serta protokol kesehatan dan ketentuan lain yang telah ditetapkan oleh Kementerian Kesehatan, Pemerintah Daerah, dan Satuan Tugas Covid-19 Daerah;
+- karyawan yang terlatih dalam memberikan pelayanan terbaik sesuai dengan SOP yang berlaku di Restoran/Rumah Makan;
+- fasilitas pendukung yang dibutuhkan terkait kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan; serta
+- informasi tertulis bagi tamu dan pihak lain yang beraktivitas di Restoran/ Rumah Makan tentang SOP kebersihan, kesehatan, keselamatan, dan kelestarian lingkungan yang berlaku di restoran/rumah Makan.
+T : Apa yang harus dilakukan oleh Pemerintah Daerah (Provinsi dan Kabupaten/Kota) untuk mendukung penerapan Panduan Pelaksanaan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan ini?
+J : Memperbarui informasi terkait Covid-19 dan menyampaikannya kepada pengusaha dan/atau pengelola Restoran/Rumah Makan dan para pihak termasuk masyarakat; melakukan sosialisasi, pelatihan/edukasi, simulasi, uji coba, pendampingan, pembinaan, serta pemantauan dan evaluasi terhadap penerapan Panduan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan.
+48 EdisiJuli 2020
+
+T : Apa saja yang harus dilakukan untuk memastikan tamu yang datang dalam kondisi sehat dan tidak berpotensi menularkan Covid-19?
+J : Memeriksa suhu tubuh tamu di pintu masuk, tamu dengan suhu tubuh ≥ 37,3ºC tidak diperbolehkan masuk, begitu juga tamu dengan gejala demam, batuk, pilek, nyeri tenggorokan, dan/atau sesak napas.
+T : Kapan pengusaha dan/atau pengelola dapat membuka kembali restoran/ rumah makan untuk umum?
+J : - adanya ketentuan Pemerintah Daerah dan Satuan Tugas Covid-19 Daerah yang menyatakan kondisi wilayah sudah kondusif dan mengizinkan untuk membuka kembali restoran/rumah makan;
+dan
+- kepastian dan kesiapan restoran/ rumah makan berdasarkan ketentuan pengusaha dan/atau pengelola sesuai dengan SOP, ketersediaan fasilitas, dan karyawan yang terlatih untuk melaksanakan Panduan Kebersihan, Kesehatan, Keselamatan, dan Kelestarian Lingkungan di Restoran/Rumah Makan.
+T : Apa yang harus dilakukan oleh pengusaha dan/atau pengelola restoran/rumah makan dalam menangani gangguan kesehatan yang dialami oleh tamu maupun karyawan selama berada di restoran/rumah makan?
+J : Menyiapkan SOP untuk menangani kondisi darurat kesehatan dan berkoordinasi dengan fasilitas pelayanan kesehatan terdekat.
+
+50 EdisiJuli 2020
+UCAPAN TERIMA KASIH
+
+Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif Gedung Sapta Pesona, Jalan Medan Merdeka Barat No.17, Jakarta Telepon : 021-3838899 Email : info@kemenparekraf.go.id Layanan Halo Wonderful : halo.kemenpar.go.id Website : www.kemenparekraf.go.id www.pedulicovid19.kemenparekraf.go.id PPID : www.ppid.kemenparekraf.go.id Contact Center: 0811895676 Jam Operasional:
+Senin – Kamis (08.00 – 16.00) Jumat (08.00 – 16.30) Di luar jam operasional dapat dihubungi via WhatsApp (WA).
+Media Sosial:
+Instagram : @kemenparekraf.ri Facebook Fan Page : Kementerian Pariwisata dan Ekonomi Kreatif Twitter : @Kemenparekraf Youtube : Kemenparekraf
+INFORMASI KONTAK
+
+@kemenparekraf.riKementerian Pariwisatadan Ekonomi Kreatif Kemenparekraf08118956767 www.kemenparekraf.go.id
