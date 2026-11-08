@@ -1,4 +1,5 @@
 import json
+import math
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Union
 import chromadb
@@ -246,6 +247,46 @@ def calculate_recall_at_k(retrieved: list, ground_truth: set, k: int) -> float:
     top_k_retrieved = retrieved[:k]
     relevant_retrieved = [item for item in top_k_retrieved if item in ground_truth]
     return len(relevant_retrieved) / len(ground_truth)
+
+
+def calculate_mrr(retrieved: list, ground_truth: set) -> float:
+    """
+    Menghitung Mean Reciprocal Rank (MRR) untuk single query:
+    1 / rank dokumen relevan pertama yang ditemukan.
+    Jika tidak ada dokumen relevan yang ditemukan, bernilai 0.0.
+    """
+    if not ground_truth or not retrieved:
+        return 0.0
+    for rank, item in enumerate(retrieved, start=1):
+        if item in ground_truth:
+            return 1.0 / rank
+    return 0.0
+
+
+def calculate_ndcg_at_k(retrieved: list, ground_truth: set, k: int) -> float:
+    """
+    Menghitung Normalized Discounted Cumulative Gain pada posisi k (nDCG@k):
+    Mengukur mutu urutan ranking hasil temu balik (posisi teratas berbobot lebih tinggi).
+    Dengan binary relevance (1 jika item in ground_truth, 0 jika tidak).
+    """
+    if not ground_truth or k <= 0 or not retrieved:
+        return 0.0
+
+    # Hitung DCG@k
+    dcg = 0.0
+    for i, item in enumerate(retrieved[:k], start=1):
+        rel = 1.0 if item in ground_truth else 0.0
+        if rel > 0:
+            dcg += (2.0 ** rel - 1.0) / math.log2(i + 1)
+
+    # Hitung Ideal DCG@k (IDCG@k)
+    ideal_hits = min(k, len(ground_truth))
+    idcg = sum((2.0 ** 1.0 - 1.0) / math.log2(i + 1) for i in range(1, ideal_hits + 1))
+
+    if idcg == 0.0:
+        return 0.0
+
+    return dcg / idcg
 
 
 if __name__ == "__main__":

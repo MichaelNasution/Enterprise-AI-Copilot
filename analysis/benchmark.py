@@ -7,7 +7,13 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from src.retriever import TobaKnowledgeRetriever, calculate_precision_at_k, calculate_recall_at_k
+from src.retriever import (
+    TobaKnowledgeRetriever,
+    calculate_precision_at_k,
+    calculate_recall_at_k,
+    calculate_mrr,
+    calculate_ndcg_at_k,
+)
 
 
 def run_benchmark():
@@ -116,21 +122,31 @@ def run_benchmark():
             # Untuk Out-of-Domain, kueri berhasil jika status == 'rejected'
             precision_at_k = 1.0 if status_guardrail == "rejected" else 0.0
             recall_at_k = 1.0 if status_guardrail == "rejected" else 0.0
+            mrr_score = 1.0 if status_guardrail == "rejected" else 0.0
+            ndcg_at_k = 1.0 if status_guardrail == "rejected" else 0.0
             best_doc_id = "N/A (Rejected)"
             best_doc_preview = "Ditolak Guardrail (Out-of-Domain)"
         else:
-            # Hitung apakah dokumen terambil memuat konsep target
+            # Identifikasi ID relevan secara terstruktur untuk MRR dan nDCG
+            retrieved_ids = []
+            ground_truth_matched_ids = set()
+
             for idx, hit in enumerate(raw_results):
+                doc_id = hit["id"]
+                retrieved_ids.append(doc_id)
                 text_lower = hit["document"].lower()
                 meta_str = str(hit["metadata"]).lower()
                 is_rel = any(kw in text_lower or kw in meta_str for kw in keywords)
                 if is_rel:
+                    ground_truth_matched_ids.add(doc_id)
                     total_relevant_in_top5 += 1
                     if idx < k:
                         relevant_count_k += 1
 
             precision_at_k = relevant_count_k / k
             recall_at_k = relevant_count_k / max(1, total_relevant_in_top5)
+            mrr_score = calculate_mrr(retrieved_ids, ground_truth_matched_ids)
+            ndcg_at_k = calculate_ndcg_at_k(retrieved_ids, ground_truth_matched_ids, k=k)
 
             if raw_results:
                 best_doc = raw_results[0]
@@ -143,7 +159,7 @@ def run_benchmark():
         print(f"Hasil Guardrail: [{status_guardrail.upper()}] (Top Cosine Sim: {top_similarity:.4f} vs Threshold: {threshold})")
         print(f"Top Hit Doc ID: {best_doc_id}")
         print(f"Cuplikan Teks: {best_doc_preview}")
-        print(f"Metrik Evaluasi: P@{k} = {precision_at_k:.2f} | R@{k} = {recall_at_k:.2f}")
+        print(f"Metrik Evaluasi: P@{k} = {precision_at_k:.2f} | R@{k} = {recall_at_k:.2f} | MRR = {mrr_score:.2f} | nDCG@{k} = {ndcg_at_k:.2f}")
 
         benchmark_rows.append({
             "query_id": qid,
@@ -154,6 +170,8 @@ def run_benchmark():
             "guardrail_status": status_guardrail,
             "precision_at_3": round(precision_at_k, 2),
             "recall_at_3": round(recall_at_k, 2),
+            "mrr": round(mrr_score, 2),
+            "ndcg_at_3": round(ndcg_at_k, 2),
             "top_doc_id": best_doc_id,
             "top_doc_excerpt": best_doc_preview
         })
@@ -166,7 +184,8 @@ def run_benchmark():
     fieldnames = [
         "query_id", "tipe_kueri", "kueri", "filter_metadata",
         "top_cosine_similarity", "guardrail_status",
-        "precision_at_3", "recall_at_3", "top_doc_id", "top_doc_excerpt"
+        "precision_at_3", "recall_at_3", "mrr", "ndcg_at_3",
+        "top_doc_id", "top_doc_excerpt"
     ]
 
     with open(csv_path, "w", newline="", encoding="utf-8") as f:

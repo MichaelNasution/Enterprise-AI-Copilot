@@ -120,3 +120,31 @@ def test_precision_and_recall_calculation():
     r5 = calculate_recall_at_k(retrieved_k5, ground_truth, k=5)
     assert pytest.approx(r5, 0.01) == 0.75
 
+
+def test_mrr_and_ndcg_calculation():
+    """Memastikan utilitas metrik ranking lanjutan (MRR & nDCG@k) bekerja secara matematis."""
+    from src.retriever import calculate_mrr, calculate_ndcg_at_k
+
+    ground_truth = {"doc_A", "doc_B"}
+
+    # Kasus 1: Dokumen relevan ada di peringkat 1
+    # MRR = 1/1 = 1.0
+    # DCG@2 = 1/log2(2) + 1/log2(3) = 1 + 0.6309 = 1.6309
+    # IDCG@2 = 1.6309 -> nDCG@2 = 1.0
+    ranked_perfect = ["doc_A", "doc_B", "doc_C"]
+    assert pytest.approx(calculate_mrr(ranked_perfect, ground_truth), 0.01) == 1.00
+    assert pytest.approx(calculate_ndcg_at_k(ranked_perfect, ground_truth, k=2), 0.01) == 1.00
+
+    # Kasus 2: Dokumen relevan pertama ada di peringkat 2 (doc_C bukan relevan)
+    # MRR = 1/2 = 0.5
+    ranked_suboptimal = ["doc_C", "doc_A", "doc_D"]
+    assert pytest.approx(calculate_mrr(ranked_suboptimal, ground_truth), 0.01) == 0.50
+    # DCG@2 = 0 + 1/log2(3) = 0.6309, IDCG@2 = 1.6309 -> nDCG@2 = 0.6309/1.6309 ≈ 0.3868
+    ndcg = calculate_ndcg_at_k(ranked_suboptimal, ground_truth, k=2)
+    assert 0.38 <= ndcg <= 0.40
+
+    # Kasus 3: Tidak ada dokumen relevan
+    ranked_none = ["doc_X", "doc_Y"]
+    assert calculate_mrr(ranked_none, ground_truth) == 0.0
+    assert calculate_ndcg_at_k(ranked_none, ground_truth, k=2) == 0.0
+
