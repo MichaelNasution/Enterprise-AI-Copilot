@@ -6,7 +6,7 @@
 >
 > 🟢 **Milestone 1 (W02)** &nbsp;`[SELESAI]`&nbsp; : Problem Framing, PEAS, & Baseline Route Search (UCS & A*)  
 > 🟢 **Milestone 2 (W04)** &nbsp;`[SELESAI]`&nbsp; : Business Constraint Optimization Problem (CSP / GAC + MRV)  
-> 🟢 **Milestone 3 (W07)** &nbsp;`[SELESAI]`&nbsp; : Knowledge Base Korpus & ChromaDB Persistent Vector Search (36 Tests Passed)  
+> 🟢 **Milestone 3 (W07)** &nbsp;`[SELESAI]`&nbsp; : Knowledge Base Korpus & ChromaDB Persistent Vector Search (37 Tests Passed)  
 > 🟡 **Milestone 4 (W11)** &nbsp;`[NEXT]`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Agentic RAG Pipeline (LLM + Dynamic Retrieval + MCP Tools)  
 > ⚪ **Milestone 5 (W13)** &nbsp;`[PLANNED]`&nbsp; : Interactive Web Application & Analytics Dashboard (Gradio)
 
@@ -100,8 +100,14 @@ Enterprise-AI-Copilot/
 │   ├── test_ingest.py             # Unit test persistensi basis data vektor & HNSW
 │   └── test_retrieval.py          # Unit test temu balik semantik & guardrail
 ├── analysis/
-│   ├── benchmark.py               # Benchmark temu balik semantik 5 kueri bisnis
-│   └── retrieval_benchmark.csv    # Rekapitulasi hasil evaluasi temu balik semantik
+│   ├── benchmark.py               # Benchmark temu balik semantik 5 kueri bisnis & metrik IR
+│   ├── retrieval_benchmark.csv    # Rekapitulasi hasil evaluasi temu balik semantik
+│   ├── comparative_lexical.py     # Komparasi penelusuran leksikal (TF-IDF) vs dense semantic search
+│   ├── lexical_vs_dense.csv       # Bukti empiris kelemahan TF-IDF pada kueri sinonim/parafrasa
+│   ├── model_comparison.py        # Komparasi model Multilingual vs English-Only (separability margin)
+│   ├── multilingual_vs_english.csv# Bukti pemisahan skor 7.3x lebih tajam pada model Multilingual
+│   ├── latency_benchmark.py       # Benchmark latensi pencarian HNSW ANN vs Linear Brute-Force scan
+│   └── latency_benchmark.csv      # Hasil recall 100% dan proyeksi komputasi skala enterprise
 └── docs/
     └── milestone3_plan.md         # Panduan, pembagian peran & roadmap eksekusi M3
 ```
@@ -138,21 +144,36 @@ Pada Milestone 3 ini dibangun memori semantik perusahaan (*Enterprise Knowledge 
 - **Korpus Regulasi & SOP**: 12 dokumen regulasi resmi Danau Toba + 404 record dataset fakta destinasi dan operasional (3.308 chunk terstruktur).
 - **Chunking Engine**: *Word-aware recursive chunking* dengan *sliding window overlap* teruji ilmiah.
 - **Pipeline Ingestion**: Skrip batch embedding dan persistent indexing ke ChromaDB disk (`src/ingest.py`).
-- **Semantic Retriever & Guardrail**: Mesin pencari semantik (`src/retriever.py`) dengan dukungan *metadata filtering* dan *guardrail threshold* penolakan kueri di luar cakupan dokumen (*out-of-domain*).
-- **Benchmarking Suite**: Evaluasi 5 kueri bisnis (`analysis/benchmark.py`) dengan penghitungan skor Cosine Similarity serta metrik $P@k$ dan $R@k$.
+- **Semantic Retriever & Guardrail**: Mesin pencari semantik (`src/retriever.py`) dengan dukungan *metadata filtering* dan *guardrail threshold* empiris penolakan kueri di luar cakupan dokumen (*out-of-domain*) pada ambang batas 0.58.
+- **Benchmarking & Metrik IR**: Evaluasi 5 skenario kueri bisnis (`analysis/benchmark.py`) dengan metrik $P@k$, $R@k$, MRR (*Mean Reciprocal Rank*), dan nDCG@k (*normalized Discounted Cumulative Gain*).
+
+### 🔬 Eksplorasi Akademik Lanjutan (Materi Perkuliahan W06 & W07)
+
+Sebagai pengayaan materi mata kuliah Kecerdasan Buatan (W06: Intelligent Document Processing & W07: Vector Embeddings / Semantic Search), proyek ini dilengkapi validasi empiris komparatif:
+1. **Leksikal (TF-IDF) vs Dense Semantic Retrieval (`analysis/comparative_lexical.py`)**:
+   Membuktikan kelemahan fatal penelusuran berbasis leksikal (*vocabulary mismatch*) saat kueri berupa sinonim/parafrasa (skor kemiripan jatuh ke **0.1590**), sedangkan representasi Dense Semantic berhasil menangkap esensi semantik dengan stabil (skor **0.6756**).
+2. **Model Multilingual vs Monolingual English (`analysis/model_comparison.py`)**:
+   Membuktikan hipotesis ilmiah (Slide W07 hal. 26) bahwa model Multilingual memiliki *separability margin* 7.3x lebih tajam (+0.3753 vs +0.0517), mencegah skor palsu tinggi pada teks Bahasa Indonesia di luar domain (*out-of-domain*).
+3. **Efisiensi Komputasi & Latensi: HNSW ANN vs Linear Scan (`analysis/latency_benchmark.py`)**:
+   Menguji *pure search latency* indeks graf HNSW berbanding *brute-force matrix scan* (Recall 100% pada korpus 3.308 dokumen), serta memproyeksikan efisiensi waktu logaritmik $\mathcal{O}(\log N)$ vs linear $\mathcal{O}(N \cdot d)$ dan konsumsi memori ($N \times d \times 4\text{ bytes}$) pada skala enterprise.
+4. **Prinsip Intelligent Document Processing (IDP)**:
+   Pembersihan artefak OCR (watermark BPS, hyphenated words, running headers) dengan tetap mengamankan kata negasi hukum (*tidak*, *bukan*, *dilarang*) serta redaksi data pribadi sensitif (PII) sebelum diindeks.
 
 ## Instalasi & Menjalankan (Astral uv)
 
 ```bash
 # instal uv jika belum ada: https://docs.astral.sh/uv/
-uv sync                                    # instal seluruh dependensi dari pyproject.toml
-uv run python search.py                    # jalankan contoh pencarian rute (M1)
-uv run python solver.py                    # jalankan contoh penyelesaian paket wisata CSP (M2)
-uv run python src/ingest.py                # jalankan pipeline ingestion ChromaDB (M3)
-uv run python src/retriever.py             # jalankan pengujian pencarian semantik & guardrail (M3)
-uv run python analysis/benchmark.py        # jalankan evaluasi benchmark 5 kueri bisnis (M3)
-uv run pytest -v                           # jalankan seluruh unit test (36 tests passed)
-uv run python analysis/sensitivity_analysis.py  # reproduksi analisis sensitivitas M2
+uv sync                                        # instal seluruh dependensi dari pyproject.toml
+uv run python search.py                        # jalankan contoh pencarian rute (M1)
+uv run python solver.py                        # jalankan contoh penyelesaian paket wisata CSP (M2)
+uv run python src/ingest.py                    # jalankan pipeline ingestion ChromaDB (M3)
+uv run python src/retriever.py                 # jalankan pengujian pencarian semantik & guardrail (M3)
+uv run python analysis/benchmark.py            # jalankan evaluasi benchmark 5 kueri bisnis & metrik IR (M3)
+uv run python analysis/comparative_lexical.py  # komparasi empiris TF-IDF vs Dense Semantic Retrieval
+uv run python analysis/model_comparison.py     # validasi empiris Multilingual vs English-only model
+uv run python analysis/latency_benchmark.py    # benchmark latensi & memori HNSW ANN vs Linear Scan
+uv run pytest -v                               # jalankan seluruh unit test (37 tests passed)
+uv run python analysis/sensitivity_analysis.py # reproduksi analisis sensitivitas M2
 ```
 
 ## Roadmap Proyek (5 Milestone)

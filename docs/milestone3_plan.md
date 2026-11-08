@@ -100,8 +100,14 @@ Milestone 3 berfokus pada pembangunan memori semantik perusahaan (*Enterprise Kn
   * Menguji distribusi skor kesamaan semantik secara empiris (domain Toba: 0.63–0.81, luar domain: 0.33–0.52).
   * Menetapkan nilai ambang batas empiris terkalibrasi $\text{threshold} = 0.58$ untuk menolak kueri luar domain (*out-of-domain*) dengan presisi 100%.
 * [x] **Evaluasi Matematis & Tolok Ukur Temu Balik:**
-  * Menghitung nilai metrik evaluasi temu balik $P@k$ (*Precision@k*) dan $R@k$ (*Recall@k*) untuk 5 kueri uji bisnis.
+  * Menghitung nilai metrik evaluasi temu balik $P@k$ (*Precision@k*), $R@k$ (*Recall@k*), MRR (*Mean Reciprocal Rank*), dan nDCG@k (*normalized Discounted Cumulative Gain*) untuk 5 kueri uji bisnis.
   * Hasil terekam secara otomatis di `analysis/retrieval_benchmark.csv`.
+* [x] **Eksperimen Komparasi Leksikal (TF-IDF) vs Dense (`analysis/comparative_lexical.py`):**
+  * Membuktikan kegagalan penelusuran berbasis kata kunci pada kueri parafrasa/sinonim (skor TF-IDF jatuh ke 0.1590) dibanding representasi vektor padat (skor 0.6756). Hasil terekam di `analysis/lexical_vs_dense.csv`.
+* [x] **Validasi Model Multilingual vs Monolingual English (`analysis/model_comparison.py`):**
+  * Membuktikan temuan Slide W07 Halaman 26 bahwa model Multilingual menghasilkan *separability margin* 7.3x lipat lebih tegas (+0.3753 vs +0.0517), mencegah lolosnya kueri luar domain. Hasil terekam di `analysis/multilingual_vs_english.csv`.
+* [x] **Benchmarking Efisiensi & Latensi Graf HNSW vs Brute-Force (`analysis/latency_benchmark.py`):**
+  * Mengukur latensi pencarian murni HNSW ANN vs Linear Scan (Recall@5 = 100%), estimasi footprint memori (~8.48 MB untuk 3.308 chunk), dan proyeksi skala $\mathcal{O}(\log N)$ vs $\mathcal{O}(N \cdot d)$. Hasil terekam di `analysis/latency_benchmark.csv`.
 * [ ] **Penyusunan Laporan Teknis PDF (`Grup07-Tugas03.pdf`):**
   * Memimpin penulisan dokumen laporan teknis (Bab Teori NLP, Arsitektur Vektor, Analisis Metrik Cosine vs $L_2$, HNSW ANN, dan Pembahasan Hasil Evaluasi).
 
@@ -130,9 +136,9 @@ Milestone 3 berfokus pada pembangunan memori semantik perusahaan (*Enterprise Kn
     3. Kueri Berbasis Spesifikasi Kategori dengan Filter Metadata ($\rightarrow$ Sim: 0.7454, P@3: 1.00)
     4. Kueri Ambigu ($\rightarrow$ Sim: 0.6377, P@3: 1.00)
     5. Kueri *Out-of-Domain* ($\rightarrow$ Sim: 0.3845 vs Threshold 0.58 $\rightarrow$ Berhasil Ditolak Guardrail)
-  * Unit test `tests/test_retrieval.py` (7 tests passed).
+  * Unit test `tests/test_retrieval.py` (8 tests passed, mencakup pengujian metrik MRR dan nDCG@k).
 * [x] **Pembaruan Dokumentasi `README.md`:**
-  * Menuliskan cara menjalankan `uv run python src/ingest.py`, pengujian benchmark `analysis/benchmark.py`, dan cara melakukan kueri via `src/retriever.py`.
+  * Menuliskan cara menjalankan `uv run python src/ingest.py`, pengujian benchmark `analysis/benchmark.py`, skrip komparasi model dan latensi, serta cara melakukan kueri via `src/retriever.py`.
 
 ---
 
@@ -164,8 +170,8 @@ gantt
 | **Fase 1: Fondasi Data & Korpus Enterprise** | • 12 dokumen regulasi + 404 record pariwisata Toba di `data/corpus/`<br>• Skema metadata lengkap tertanam di manifest & jsonl<br>• Normalisasi teks & preservasi kata negasi via `preprocess.py` | **Ventyola Rohati** | 🟢 **SELESAI (100%)** |
 | **Fase 2: Arsitektur Model & Chunking Engine** | • Pemilihan model `paraphrase-multilingual-MiniLM-L12-v2`<br>• Word-aware recursive chunker `src/chunking.py`<br>• Eksperimen parameter chunking & 3.308 chunk di `chunks.jsonl` | **Ventyola Rohati** & **Michael Pratama** | 🟢 **SELESAI (100%)** |
 | **Fase 3: Persistent Indexing & ChromaDB** | • Skrip `src/ingest.py` (3.308 chunk $\rightarrow$ batch embedding $\rightarrow$ ChromaDB)<br>• Penyimpanan disk persisten `chromadb.PersistentClient`<br>• Konfigurasi eksplisit HNSW ruang `cosine`<br>• Tervalidasi via `tests/test_ingest.py` (7 tests passed) | **Grasia Simanullang** | 🟢 **SELESAI (100%)** |
-| **Fase 4: Semantic Retriever & Benchmarking** | • Skrip `src/retriever.py` (cosine similarity + metadata filter)<br>• Ambang batas (*guardrail threshold*) empiris 0.58 penolakan kueri luar domain<br>• Benchmark 5 kueri bisnis (`analysis/benchmark.py`) & evaluasi $P@k$ dan $R@k$<br>• Tervalidasi via `tests/test_retrieval.py` (7 tests passed) | **Grasia Simanullang** & **Michael Pratama** | 🟢 **SELESAI (100%)** |
-| **Fase 5: Laporan Teknis PDF & Finalisasi** | • Kompilasi dokumen laporan teknis `Grup07-Tugas03.pdf`<br>• Pembaruan panduan eksekusi di `README.md`<br>• Pengujian unit test via `pytest` (36 tests passed) & final push ke GitHub | **Michael Pratama** (Lead) & Seluruh Tim | 🟡 **PRIORITAS BERIKUTNYA** |
+| **Fase 4: Semantic Retriever & Benchmarking** | • Skrip `src/retriever.py` (cosine similarity + metadata filter)<br>• Ambang batas (*guardrail threshold*) empiris 0.58 penolakan kueri luar domain<br>• Benchmark 5 kueri bisnis (`analysis/benchmark.py`) & evaluasi $P@k$, $R@k$, MRR, nDCG@k<br>• Eksplorasi pengayaan materi W06 & W07 (`comparative_lexical.py`, `model_comparison.py`, `latency_benchmark.py`)<br>• Tervalidasi via `tests/test_retrieval.py` (8 tests passed) & 37 unit tests repositori | **Grasia Simanullang** & **Michael Pratama** | 🟢 **SELESAI (100%)** |
+| **Fase 5: Laporan Teknis PDF & Finalisasi** | • Kompilasi dokumen laporan teknis `Grup07-Tugas03.pdf`<br>• Pembaruan panduan eksekusi di `README.md`<br>• Seluruh 37 unit test via `pytest` passed & final push ke GitHub | **Michael Pratama** (Lead) & Seluruh Tim | 🟡 **PRIORITAS BERIKUTNYA** |
 
 ---
 
@@ -177,8 +183,8 @@ flowchart TD
     B -->|Tersedia: chunks.jsonl 3.308 chunks| C[Michael: Inisialisasi Multilingual Model & Konfigurasi HNSW Cosine]
     C -->|Selesai| D[Grasia: Skrip Ingestion & Persistent Indexing ChromaDB]
     D -->|Selesai: 3.308 Chunks Indexed| E[Grasia: Implementasi Modul Retriever & Guardrail]
-    E -->|Selesai: retriever.py & 36 Tests Passed| F[Grasia & Michael: Eksekusi 5 Kueri Benchmark]
-    F -->|Hasil di: retrieval_benchmark.csv| G[Michael: Analisis Metrik P@k, R@k & Penulisan Laporan PDF]
+    E -->|Selesai: retriever.py & 37 Tests Passed| F[Grasia & Michael: Eksekusi 5 Kueri Benchmark & Pengayaan W06-W07]
+    F -->|Hasil di: folder analysis/| G[Michael: Analisis Metrik IR & Penulisan Laporan PDF]
     G --> H[Tim: Finalisasi Repositori GitHub & Pengumpulan Dokumen]
 ```
 
@@ -202,13 +208,24 @@ Enterprise-AI-Copilot/
 │   ├── preprocess.py               # Pembersihan teks PDF regulasi (Ventyola - Selesai)
 │   ├── preprocess_tourism_dataset.py # Pembersihan dataset hackathon (Ventyola - Selesai)
 │   ├── chunking.py                 # Word-aware recursive chunker (Ventyola - Selesai)
-│   ├── ingest.py                   # Pipeline ingestion & embedding (Grasia - Target Fase 3)
-│   └── retriever.py                # Semantic search & guardrail (Grasia & Michael - Target Fase 4)
+│   ├── ingest.py                   # Pipeline ingestion & embedding (Grasia - Selesai)
+│   ├── retriever.py                # Semantic search & guardrail (Grasia & Michael - Selesai)
+│   └── check_db.py                 # Verifikasi & inspeksi koleksi database (Selesai)
 ├── tests/
 │   ├── test_preprocess.py          # Unit test cleaning PDF (Ventyola - Selesai)
 │   ├── test_preprocess_tourism_dataset.py # Unit test cleaning dataset (Ventyola - Selesai)
 │   ├── test_chunking.py            # Unit test chunking logic (Ventyola - Selesai)
-│   └── test_retrieval.py           # Unit test & benchmark kueri bisnis (Grasia & Michael - Target Fase 4)
+│   ├── test_ingest.py              # Unit test persistensi basis data vektor & HNSW (Grasia - Selesai)
+│   └── test_retrieval.py           # Unit test temu balik & metrik IR (Grasia & Michael - Selesai)
+├── analysis/
+│   ├── benchmark.py                # Benchmark temu balik semantik 5 kueri bisnis & IR metrics
+│   ├── retrieval_benchmark.csv     # Rekapitulasi hasil evaluasi temu balik semantik
+│   ├── comparative_lexical.py      # Komparasi TF-IDF vs Dense Semantic Retrieval
+│   ├── lexical_vs_dense.csv        # Bukti empiris kelemahan TF-IDF pada parafrasa
+│   ├── model_comparison.py         # Validasi empiris Multilingual vs English-only model
+│   ├── multilingual_vs_english.csv # Data separability margin model multibahasa (Slide W07)
+│   ├── latency_benchmark.py        # Benchmark latensi pencarian HNSW ANN vs Linear Scan
+│   └── latency_benchmark.csv       # Hasil recall 100% dan proyeksi komputasi skala enterprise
 ├── docs/
 │   ├── milestone3_plan.md          # Dokumen perencanaan ini (Updated)
 │   └── Grup07-Tugas03.pdf          # Laporan teknis akhir (Michael Lead - Target Fase 5)
