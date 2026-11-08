@@ -1,0 +1,7 @@
+id,tipe,kueri,multilingual_similarity,english_similarity,status_domain
+IN_1,In-Domain,tarif retribusi tempat rekreasi dan sarana olah raga,0.666,0.584,Target Relevan
+IN_2,In-Domain,persyaratan kamar tidur dan fasilitas penginapan pondok wisata,0.5325,0.562,Target Relevan
+IN_3,In-Domain,daftar objek wisata pantai di sekitar pesisir danau toba,0.6743,0.541,Target Relevan
+OOD_1,Out-of-Domain,rumus kalkulus turunan dan integral fungsi trigonometri aljabar,0.2594,0.523,Luar Domain
+OOD_2,Out-of-Domain,tata cara transfer bursa pemain sepak bola liga inggris premier league,0.2562,0.498,Luar Domain
+OOD_3,Out-of-Domain,resep memasak kue bolu kukus pandan dan bahan pengembang adonan,0.2314,0.511,Luar Domain

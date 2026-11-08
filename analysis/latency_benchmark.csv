@@ -1,0 +1,6 @@
+query_id,query,brute_force_ms,hnsw_ann_ms,recall_at_5
+1,tarif retribusi tempat rekreasi dan sarana olah raga,0.298,1.916,1.0
+2,persyaratan standar kamar tidur pondok wisata,0.257,1.762,1.0
+3,rekomendasi daya tarik wisata pantai pesisir toba,0.263,1.853,1.0
+4,desa wisata dan pelestarian kebudayaan batak,0.313,1.663,1.0
+5,kuliner khas dan oleh-oleh tradisional di samosir,0.347,1.732,1.0
