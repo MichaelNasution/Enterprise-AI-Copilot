@@ -33,3 +33,6 @@ data/private/
 
 # Scratch & extracted temporary files
 scratch/
+
+# Local agent configurations & skills (Antigravity/RTK)
+.agents/
